@@ -5,53 +5,37 @@ weight: 1
 chapter: false
 pre: " <b> 1.3. </b> "
 ---
-{{% notice warning %}} 
-⚠️ **Note:** The following information is for reference purposes only. Please **do not copy verbatim** for your own report, including this warning.
-{{% /notice %}}
-
-
 ### Week 3 Objectives:
 
-* Connect and get acquainted with members of First Cloud AI Journey.
-* Understand basic AWS services, how to use the console & CLI.
+* Complete Lab 07.
+* Learn about AWS Budgets and AWS Support.
+* Study Amazon EC2 service.
+* Practice Amazon VPC networking labs and related networking components.
 
 ### Tasks to be carried out this week:
-| Day | Task                                                                                                                                                                                                   | Start Date | Completion Date | Reference Material                        |
-| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ---------- | --------------- | ----------------------------------------- |
-| 2   | - Get acquainted with FCAJ members <br> - Read and take note of internship unit rules and regulations                                                                                                   | 08/11/2025 | 08/11/2025      |
-| 3   | - Learn about AWS and its types of services <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                              | 08/12/2025 | 08/12/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Create AWS Free Tier account <br> - Learn about AWS Console & AWS CLI <br> - **Practice:** <br>&emsp; + Create AWS account <br>&emsp; + Install & configure AWS CLI <br> &emsp; + How to use AWS CLI | 08/13/2025 | 08/13/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Learn basic EC2: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - SSH connection methods to EC2 <br> - Learn about Elastic IP   <br>                            | 08/14/2025 | 08/15/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Practice:** <br>&emsp; + Launch an EC2 instance <br>&emsp; + Connect via SSH <br>&emsp; + Attach an EBS volume                                                                                     | 08/15/2025 | 08/15/2025      | <https://cloudjourney.awsstudygroup.com/> |
 
+| Day | Task | Start Date | Completion Date | Reference Material |
+| --- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------- | --------------- | ----------------------------------------- |
+| 2 | - Complete Lab 07. <br> - Learn about AWS Budgets. <br>&emsp; + Create a Budget <br>&emsp; + Monitor AWS resource usage <br>&emsp; + Manage AWS costs | 05/05/2026 | 05/05/2026 | <https://cloudjourney.awsstudygroup.com/> |
+| 3 | - Learn about AWS Support. <br>&emsp; + AWS Support plans <br>&emsp; + Creating Support Cases <br>&emsp; + Common support scenarios | 06/05/2026 | 06/05/2026 | <https://cloudjourney.awsstudygroup.com/> |
+| 4 | - Study Amazon EC2 fundamentals. <br>&emsp; + Instance Types <br>&emsp; + Amazon Machine Images (AMI) <br>&emsp; + Key Pairs <br>&emsp; + Security Groups | 07/05/2026 | 07/05/2026 | <https://cloudjourney.awsstudygroup.com/> |
+| 5 | - Practice Amazon VPC Lab. <br>&emsp; + Create a VPC <br>&emsp; + Create Subnets <br>&emsp; + Configure Route Tables <br>&emsp; + Create an Internet Gateway | 08/05/2026 | 09/05/2026 | <https://cloudjourney.awsstudygroup.com/> |
+| 6 | - Review the topics covered this week. <br>&emsp; + Verify network connectivity <br>&emsp; + Test Internet access for EC2 instances through the configured VPC | 09/05/2026 | 10/05/2026 | <https://cloudjourney.awsstudygroup.com/> |
 
 ### Week 3 Achievements:
 
-* Understood what AWS is and mastered the basic service groups: 
-  * Compute
-  * Storage
-  * Networking 
-  * Database
-  * ...
-
-* Successfully created and configured an AWS Free Tier account.
-
-* Became familiar with the AWS Management Console and learned how to find, access, and use services via the web interface.
-
-* Installed and configured AWS CLI on the computer, including:
-  * Access Key
-  * Secret Key
-  * Default Region
-  * ...
-
-* Used AWS CLI to perform basic operations such as:
-
-  * Check account & configuration information
-  * Retrieve the list of regions
-  * View EC2 service
-  * Create and manage key pairs
-  * Check information about running services
-  * ...
-
-* Acquired the ability to connect between the web interface and CLI to manage AWS resources in parallel.
-* ...
+* Successfully completed Lab 07 according to the bootcamp requirements.
+* Understood the purpose of AWS Budgets and learned how to create budgets to monitor AWS resource usage and costs.
+* Learned about AWS Support plans and how to create Support Cases when technical assistance is required.
+* Gained a solid understanding of Amazon EC2 fundamentals, including:
+  * EC2 Instances
+  * Amazon Machine Images (AMI)
+  * Key Pairs
+  * Security Groups
+* Successfully practiced creating and configuring Amazon VPC components, including:
+  * Virtual Private Cloud (VPC)
+  * Subnets
+  * Route Tables
+  * Internet Gateway
+* Understood how networking components work together to enable Internet connectivity for EC2 instances within a VPC.
+* Built a solid foundation for more advanced EC2 and AWS networking labs in the following weeks.

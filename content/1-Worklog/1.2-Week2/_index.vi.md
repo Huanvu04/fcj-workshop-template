@@ -5,55 +5,29 @@ weight: 1
 chapter: false
 pre: " <b> 1.2. </b> "
 ---
-{{% notice warning %}}
-⚠️ **Lưu ý:** Các thông tin dưới đây chỉ nhằm mục đích tham khảo, vui lòng **không sao chép nguyên văn** cho bài báo cáo của bạn kể cả warning này.
-{{% /notice %}}
-
-
 ### Mục tiêu tuần 2:
 
-* Kết nối, làm quen với các thành viên trong First Cloud AI Journey.
-* Hiểu dịch vụ AWS cơ bản, cách dùng console & CLI.
+* Học lý thuyết Module 02.
+* Tìm hiểu các dịch vụ mạng trên AWS.
+* Nắm được kiến thức về Amazon VPC, VPN và Firewall.
+* Hiểu mô hình mạng cơ bản trong AWS Cloud.
 
 ### Các công việc cần triển khai trong tuần này:
-| Thứ | Công việc                                                                                                                                                                                   | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu                            |
-| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | --------------- | ----------------------------------------- |
-| 2   | - Làm quen với các thành viên FCAJ <br> - Đọc và lưu ý các nội quy, quy định tại đơn vị thực tập                                                                                             | 11/08/2025   | 11/08/2025      |
-| 3   | - Tìm hiểu AWS và các loại dịch vụ <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                            | 12/08/2025   | 12/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Tạo AWS Free Tier account <br> - Tìm hiểu AWS Console & AWS CLI <br> - **Thực hành:** <br>&emsp; + Tạo AWS account <br>&emsp; + Cài AWS CLI & cấu hình <br> &emsp; + Cách sử dụng AWS CLI | 13/08/2025   | 13/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Tìm hiểu EC2 cơ bản: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - Các cách remote SSH vào EC2 <br> - Tìm hiểu Elastic IP   <br>                  | 14/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Thực hành:** <br>&emsp; + Tạo EC2 instance <br>&emsp; + Kết nối SSH <br>&emsp; + Gắn EBS volume                                                                                         | 15/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
 
+| Thứ | Công việc | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu |
+| --- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | --------------- | ----------------------------------------- |
+| 2 | - Học lý thuyết Module 02. <br> - Tìm hiểu tổng quan về Amazon VPC và các thành phần trong mạng AWS. | 27/04/2026 | 27/04/2026 | <https://www.youtube.com/@AWSStudyGroup> |
+| 3 | - Tìm hiểu Amazon VPC. <br>&emsp; + Khái niệm Virtual Private Cloud <br>&emsp; + Kiến trúc mạng trên AWS <br>&emsp; + Các thành phần trong VPC | 28/04/2026 | 28/04/2026 | <https://cloudjourney.awsstudygroup.com/> |
+| 4 | - Tìm hiểu Subnet trong VPC. <br>&emsp; + Public Subnet <br>&emsp; + Private Subnet <br>&emsp; + CIDR Block <br>&emsp; + Route Table | 29/04/2026 | 29/04/2026 | <https://cloudjourney.awsstudygroup.com/> |
+| 5 | - Tìm hiểu VPN trên AWS. <br>&emsp; + Site-to-Site VPN <br>&emsp; + Kết nối On-premises với AWS <br>&emsp; + Các mô hình kết nối mạng | 30/04/2026 | 30/04/2026 | <https://cloudjourney.awsstudygroup.com/> |
+| 6 | - Tìm hiểu Firewall trên AWS. <br>&emsp; + Security Group <br>&emsp; + Network ACL <br>&emsp; + So sánh Security Group và Network ACL <br> - Ôn tập kiến thức Module 02. | 01/05/2026 | 01/05/2026 | <https://cloudjourney.awsstudygroup.com/> |
 
 ### Kết quả đạt được tuần 2:
 
-* Hiểu AWS là gì và nắm được các nhóm dịch vụ cơ bản: 
-  * Compute
-  * Storage
-  * Networking 
-  * Database
-  * ...
-
-* Đã tạo và cấu hình AWS Free Tier account thành công.
-
-* Làm quen với AWS Management Console và biết cách tìm, truy cập, sử dụng dịch vụ từ giao diện web.
-
-* Cài đặt và cấu hình AWS CLI trên máy tính bao gồm:
-  * Access Key
-  * Secret Key
-  * Region mặc định
-  * ...
-
-* Sử dụng AWS CLI để thực hiện các thao tác cơ bản như:
-
-  * Kiểm tra thông tin tài khoản & cấu hình
-  * Lấy danh sách region
-  * Xem dịch vụ EC2
-  * Tạo và quản lý key pair
-  * Kiểm tra thông tin dịch vụ đang chạy
-  * ...
-
-* Có khả năng kết nối giữa giao diện web và CLI để quản lý tài nguyên AWS song song.
-* ...
-
-
+* Hiểu được kiến trúc mạng cơ bản trên nền tảng AWS Cloud.
+* Nắm được khái niệm và chức năng của Amazon VPC.
+* Hiểu cách phân chia Public Subnet và Private Subnet trong VPC.
+* Biết vai trò của CIDR Block và Route Table trong việc định tuyến lưu lượng mạng.
+* Hiểu nguyên lý hoạt động của VPN và các phương thức kết nối giữa hệ thống On-premises với AWS.
+* Nắm được chức năng của Security Group và Network ACL trong việc kiểm soát truy cập tài nguyên AWS.
+* Hoàn thành nội dung lý thuyết Module 02 và chuẩn bị kiến thức cho các bài thực hành ở những tuần tiếp theo.

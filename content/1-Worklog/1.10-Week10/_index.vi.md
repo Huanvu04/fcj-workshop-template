@@ -5,55 +5,29 @@ weight: 2
 chapter: false
 pre: " <b> 1.10. </b> "
 ---
-{{% notice warning %}}
-⚠️ **Lưu ý:** Các thông tin dưới đây chỉ nhằm mục đích tham khảo, vui lòng **không sao chép nguyên văn** cho bài báo cáo của bạn kể cả warning này.
-{{% /notice %}}
-
-
 ### Mục tiêu tuần 10:
 
-* Kết nối, làm quen với các thành viên trong First Cloud AI Journey.
-* Hiểu dịch vụ AWS cơ bản, cách dùng console & CLI.
+* Hoàn thành Lab 14 và Lab 24.
+* Tìm hiểu dịch vụ AWS Storage Gateway.
+* Thực hành triển khai File Gateway.
+* Kết nối File Gateway với Amazon S3 và chia sẻ dữ liệu thông qua SMB File Share.
 
 ### Các công việc cần triển khai trong tuần này:
-| Thứ | Công việc                                                                                                                                                                                   | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu                            |
-| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | --------------- | ----------------------------------------- |
-| 2   | - Làm quen với các thành viên FCAJ <br> - Đọc và lưu ý các nội quy, quy định tại đơn vị thực tập                                                                                             | 11/08/2025   | 11/08/2025      |
-| 3   | - Tìm hiểu AWS và các loại dịch vụ <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                            | 12/08/2025   | 12/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Tạo AWS Free Tier account <br> - Tìm hiểu AWS Console & AWS CLI <br> - **Thực hành:** <br>&emsp; + Tạo AWS account <br>&emsp; + Cài AWS CLI & cấu hình <br> &emsp; + Cách sử dụng AWS CLI | 13/08/2025   | 13/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Tìm hiểu EC2 cơ bản: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - Các cách remote SSH vào EC2 <br> - Tìm hiểu Elastic IP   <br>                  | 14/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Thực hành:** <br>&emsp; + Tạo EC2 instance <br>&emsp; + Kết nối SSH <br>&emsp; + Gắn EBS volume                                                                                         | 15/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
 
+| Thứ | Công việc | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu |
+| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ------------ | --------------- | ----------------------------------------- |
+| 2 | - Hoàn thành Lab 14. <br>&emsp; + Triển khai theo hướng dẫn <br>&emsp; + Kiểm tra kết quả sau khi hoàn thành | 22/06/2026 | 22/06/2026 | <https://cloudjourney.awsstudygroup.com/> |
+| 3 | - Hoàn thành Lab 24. <br>&emsp; + Cấu hình các tài nguyên theo yêu cầu <br>&emsp; + Xác minh kết quả triển khai | 23/06/2026 | 23/06/2026 | <https://cloudjourney.awsstudygroup.com/> |
+| 4 | - Tìm hiểu AWS Storage Gateway. <br>&emsp; + Kiến trúc Storage Gateway <br>&emsp; + Các loại Gateway <br>&emsp; + Trường hợp sử dụng trong doanh nghiệp | 24/06/2026 | 24/06/2026 | <https://docs.aws.amazon.com/storagegateway/latest/userguide/> |
+| 5 | - Thực hành triển khai File Gateway. <br>&emsp; + Tạo File Gateway <br>&emsp; + Cấu hình SMB File Share <br>&emsp; + Kết nối với Amazon S3 | 25/06/2026 | 25/06/2026 | <https://docs.aws.amazon.com/storagegateway/latest/userguide/> |
+| 6 | - Kiểm tra và đồng bộ dữ liệu. <br>&emsp; + Đồng bộ dữ liệu giữa File Gateway và Amazon S3 <br>&emsp; + Kiểm tra khả năng truy cập dữ liệu <br>&emsp; + Tổng kết kiến thức đã học | 26/06/2026 | 26/06/2026 | <https://cloudjourney.awsstudygroup.com/> |
 
 ### Kết quả đạt được tuần 10:
 
-* Hiểu AWS là gì và nắm được các nhóm dịch vụ cơ bản: 
-  * Compute
-  * Storage
-  * Networking 
-  * Database
-  * ...
-
-* Đã tạo và cấu hình AWS Free Tier account thành công.
-
-* Làm quen với AWS Management Console và biết cách tìm, truy cập, sử dụng dịch vụ từ giao diện web.
-
-* Cài đặt và cấu hình AWS CLI trên máy tính bao gồm:
-  * Access Key
-  * Secret Key
-  * Region mặc định
-  * ...
-
-* Sử dụng AWS CLI để thực hiện các thao tác cơ bản như:
-
-  * Kiểm tra thông tin tài khoản & cấu hình
-  * Lấy danh sách region
-  * Xem dịch vụ EC2
-  * Tạo và quản lý key pair
-  * Kiểm tra thông tin dịch vụ đang chạy
-  * ...
-
-* Có khả năng kết nối giữa giao diện web và CLI để quản lý tài nguyên AWS song song.
-* ...
-
-
+* Hoàn thành Lab 14 và Lab 24 theo kế hoạch.
+* Hiểu được kiến trúc và nguyên lý hoạt động của AWS Storage Gateway.
+* Nắm được vai trò của File Gateway trong việc kết nối hệ thống lưu trữ tại chỗ với Amazon S3.
+* Thực hành thành công việc tạo File Gateway và cấu hình SMB File Share.
+* Hiểu được cơ chế đồng bộ dữ liệu giữa File Gateway và Amazon S3.
+* Củng cố kiến thức về giải pháp Hybrid Cloud Storage trên nền tảng AWS.
+* Hoàn thành toàn bộ nội dung thực tập theo kế hoạch của 10 tuần đầu tiên.

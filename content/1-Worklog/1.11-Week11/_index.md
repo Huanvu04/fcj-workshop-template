@@ -5,53 +5,30 @@ weight: 2
 chapter: false
 pre: " <b> 1.11. </b> "
 ---
-{{% notice warning %}} 
-⚠️ **Note:** The following information is for reference purposes only. Please **do not copy verbatim** for your own report, including this warning.
-{{% /notice %}}
-
-
 ### Week 11 Objectives:
 
-* Connect and get acquainted with members of First Cloud AI Journey.
-* Understand basic AWS services, how to use the console & CLI.
+* Study the architecture of Lab 25.
+* Complete Lab 25 in Module 04.
+* Learn about Amazon FSx and Multi-AZ File Systems.
+* Practice creating File Shares and performing performance testing.
+* Prepare for Lab 57.
 
 ### Tasks to be carried out this week:
-| Day | Task                                                                                                                                                                                                   | Start Date | Completion Date | Reference Material                        |
-| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ---------- | --------------- | ----------------------------------------- |
-| 2   | - Get acquainted with FCAJ members <br> - Read and take note of internship unit rules and regulations                                                                                                   | 08/11/2025 | 08/11/2025      |
-| 3   | - Learn about AWS and its types of services <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                              | 08/12/2025 | 08/12/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Create AWS Free Tier account <br> - Learn about AWS Console & AWS CLI <br> - **Practice:** <br>&emsp; + Create AWS account <br>&emsp; + Install & configure AWS CLI <br> &emsp; + How to use AWS CLI | 08/13/2025 | 08/13/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Learn basic EC2: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - SSH connection methods to EC2 <br> - Learn about Elastic IP   <br>                            | 08/14/2025 | 08/15/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Practice:** <br>&emsp; + Launch an EC2 instance <br>&emsp; + Connect via SSH <br>&emsp; + Attach an EBS volume                                                                                     | 08/15/2025 | 08/15/2025      | <https://cloudjourney.awsstudygroup.com/> |
 
+| Day | Task | Start Date | Completion Date | Reference Material |
+| --- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------- | --------------- | ----------------------------------------- |
+| 2 | - Study the architecture of Lab 25. <br>&emsp; + Analyze the system components <br>&emsp; + Understand the deployment workflow | 29/06/2026 | 29/06/2026 | <https://cloudjourney.awsstudygroup.com/> |
+| 3 | - Complete Lab 25 in Module 04. <br>&emsp; + Deploy the required resources <br>&emsp; + Verify the implementation results | 30/06/2026 | 01/07/2026 | <https://cloudjourney.awsstudygroup.com/> |
+| 4 | - Practice creating an SSD Multi-AZ File System. <br>&emsp; + Learn about Amazon FSx <br>&emsp; + Configure Multi-AZ storage | 02/07/2026 | 02/07/2026 | <https://cloudjourney.awsstudygroup.com/> |
+| 5 | - Practice creating an HDD Multi-AZ File System. <br>&emsp; + Configure a File Share <br>&emsp; + Perform a Performance Test <br>&emsp; + Evaluate system performance | 03/07/2026 | 04/07/2026 | <https://cloudjourney.awsstudygroup.com/> |
+| 6 | - Review the topics learned. <br>&emsp; + Summarize Amazon FSx concepts <br>&emsp; + Prepare for Lab 57 | 05/07/2026 | 05/07/2026 | <https://cloudjourney.awsstudygroup.com/> |
 
 ### Week 11 Achievements:
 
-* Understood what AWS is and mastered the basic service groups: 
-  * Compute
-  * Storage
-  * Networking 
-  * Database
-  * ...
-
-* Successfully created and configured an AWS Free Tier account.
-
-* Became familiar with the AWS Management Console and learned how to find, access, and use services via the web interface.
-
-* Installed and configured AWS CLI on the computer, including:
-  * Access Key
-  * Secret Key
-  * Default Region
-  * ...
-
-* Used AWS CLI to perform basic operations such as:
-
-  * Check account & configuration information
-  * Retrieve the list of regions
-  * View EC2 service
-  * Create and manage key pairs
-  * Check information about running services
-  * ...
-
-* Acquired the ability to connect between the web interface and CLI to manage AWS resources in parallel.
-* ...
+* Understood the architecture and deployment workflow of Lab 25.
+* Successfully completed Lab 25 as part of the Bootcamp curriculum.
+* Learned about Amazon FSx, including SSD Multi-AZ and HDD Multi-AZ File Systems.
+* Successfully created File Systems and configured File Shares for data storage and sharing.
+* Performed performance testing to evaluate the efficiency of the storage system.
+* Strengthened knowledge of AWS storage solutions and their real-world applications.
+* Completed the preparation required for Lab 57 in the next stage of the training program.

@@ -5,53 +5,29 @@ weight: 1
 chapter: false
 pre: " <b> 1.7. </b> "
 ---
-{{% notice warning %}} 
-⚠️ **Note:** The following information is for reference purposes only. Please **do not copy verbatim** for your own report, including this warning.
-{{% /notice %}}
-
-
 ### Week 7 Objectives:
 
-* Connect and get acquainted with members of First Cloud AI Journey.
-* Understand basic AWS services, how to use the console & CLI.
+* Complete Module 04.
+* Study and prepare for Lab 57.
+* Learn about Amazon S3.
+* Explore Amazon S3 Storage Classes.
 
 ### Tasks to be carried out this week:
-| Day | Task                                                                                                                                                                                                   | Start Date | Completion Date | Reference Material                        |
-| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ---------- | --------------- | ----------------------------------------- |
-| 2   | - Get acquainted with FCAJ members <br> - Read and take note of internship unit rules and regulations                                                                                                   | 08/11/2025 | 08/11/2025      |
-| 3   | - Learn about AWS and its types of services <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                              | 08/12/2025 | 08/12/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Create AWS Free Tier account <br> - Learn about AWS Console & AWS CLI <br> - **Practice:** <br>&emsp; + Create AWS account <br>&emsp; + Install & configure AWS CLI <br> &emsp; + How to use AWS CLI | 08/13/2025 | 08/13/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Learn basic EC2: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - SSH connection methods to EC2 <br> - Learn about Elastic IP   <br>                            | 08/14/2025 | 08/15/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Practice:** <br>&emsp; + Launch an EC2 instance <br>&emsp; + Connect via SSH <br>&emsp; + Attach an EBS volume                                                                                     | 08/15/2025 | 08/15/2025      | <https://cloudjourney.awsstudygroup.com/> |
 
+| Day | Task | Start Date | Completion Date | Reference Material |
+| --- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------- | --------------- | ----------------------------------------- |
+| 2 | - Complete Module 04. <br>&emsp; + Review AWS storage services <br>&emsp; + Prepare for upcoming hands-on labs | 01/06/2026 | 01/06/2026 | <https://cloudjourney.awsstudygroup.com/> |
+| 3 | - Study Lab 57. <br>&emsp; + Read the lab documentation <br>&emsp; + Understand the lab requirements <br>&emsp; + Prepare the practice environment | 02/06/2026 | 02/06/2026 | <https://cloudjourney.awsstudygroup.com/> |
+| 4 | - Learn about Amazon S3. <br>&emsp; + Buckets and Objects <br>&emsp; + Versioning <br>&emsp; + S3 data management features | 03/06/2026 | 03/06/2026 | <https://docs.aws.amazon.com/AmazonS3/latest/userguide/> |
+| 5 | - Learn about Amazon S3 Storage Classes. <br>&emsp; + Standard <br>&emsp; + Intelligent-Tiering <br>&emsp; + Standard-IA <br>&emsp; + Glacier Storage Classes | 04/06/2026 | 04/06/2026 | <https://docs.aws.amazon.com/AmazonS3/latest/userguide/storage-class-intro.html> |
+| 6 | - Review the topics learned this week. <br>&emsp; + Compare different Storage Classes <br>&emsp; + Select the appropriate Storage Class based on storage requirements | 05/06/2026 | 05/06/2026 | <https://cloudjourney.awsstudygroup.com/> |
 
 ### Week 7 Achievements:
 
-* Understood what AWS is and mastered the basic service groups: 
-  * Compute
-  * Storage
-  * Networking 
-  * Database
-  * ...
-
-* Successfully created and configured an AWS Free Tier account.
-
-* Became familiar with the AWS Management Console and learned how to find, access, and use services via the web interface.
-
-* Installed and configured AWS CLI on the computer, including:
-  * Access Key
-  * Secret Key
-  * Default Region
-  * ...
-
-* Used AWS CLI to perform basic operations such as:
-
-  * Check account & configuration information
-  * Retrieve the list of regions
-  * View EC2 service
-  * Create and manage key pairs
-  * Check information about running services
-  * ...
-
-* Acquired the ability to connect between the web interface and CLI to manage AWS resources in parallel.
-* ...
+* Successfully completed Module 04.
+* Understood the objectives and workflow of Lab 57.
+* Gained a solid understanding of Amazon S3 and the Object Storage model.
+* Learned the characteristics and use cases of different Amazon S3 Storage Classes.
+* Understood how S3 Intelligent-Tiering helps optimize storage costs automatically.
+* Developed the ability to choose the appropriate Storage Class based on data access patterns and business requirements.
+* Built a solid foundation for completing Lab 57 in the following week.

@@ -5,53 +5,28 @@ weight: 1
 chapter: false
 pre: " <b> 1.4. </b> "
 ---
-{{% notice warning %}} 
-⚠️ **Note:** The following information is for reference purposes only. Please **do not copy verbatim** for your own report, including this warning.
-{{% /notice %}}
-
-
 ### Week 4 Objectives:
 
-* Connect and get acquainted with members of First Cloud AI Journey.
-* Understand basic AWS services, how to use the console & CLI.
+* Complete the FCJ weekly check-in.
+* Learn AWS networking components.
+* Understand Internet Gateway, NAT Gateway, and Elastic IP.
+* Study Module 03 and strengthen networking knowledge on AWS.
 
 ### Tasks to be carried out this week:
-| Day | Task                                                                                                                                                                                                   | Start Date | Completion Date | Reference Material                        |
-| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ---------- | --------------- | ----------------------------------------- |
-| 2   | - Get acquainted with FCAJ members <br> - Read and take note of internship unit rules and regulations                                                                                                   | 08/11/2025 | 08/11/2025      |
-| 3   | - Learn about AWS and its types of services <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                              | 08/12/2025 | 08/12/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Create AWS Free Tier account <br> - Learn about AWS Console & AWS CLI <br> - **Practice:** <br>&emsp; + Create AWS account <br>&emsp; + Install & configure AWS CLI <br> &emsp; + How to use AWS CLI | 08/13/2025 | 08/13/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Learn basic EC2: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - SSH connection methods to EC2 <br> - Learn about Elastic IP   <br>                            | 08/14/2025 | 08/15/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Practice:** <br>&emsp; + Launch an EC2 instance <br>&emsp; + Connect via SSH <br>&emsp; + Attach an EBS volume                                                                                     | 08/15/2025 | 08/15/2025      | <https://cloudjourney.awsstudygroup.com/> |
 
+| Day | Task | Start Date | Completion Date | Reference Material |
+| --- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------- | --------------- | ----------------------------------------- |
+| 2 | - Complete the weekly FCJ Check-in. <br> - Review the networking concepts learned in previous weeks. | 11/05/2026 | 11/05/2026 | <https://cloudjourney.awsstudygroup.com/> |
+| 3 | - Learn about Internet Gateway. <br>&emsp; + Purpose of an Internet Gateway <br>&emsp; + Attach an Internet Gateway to a VPC <br>&emsp; + Internet routing | 12/05/2026 | 12/05/2026 | <https://cloudjourney.awsstudygroup.com/> |
+| 4 | - Learn about NAT Gateway. <br>&emsp; + Public and Private Subnets <br>&emsp; + Outbound Internet access <br>&emsp; + NAT Gateway configuration | 13/05/2026 | 13/05/2026 | <https://cloudjourney.awsstudygroup.com/> |
+| 5 | - Learn about Elastic IP. <br>&emsp; + Allocate an Elastic IP <br>&emsp; + Associate an Elastic IP with an EC2 instance <br>&emsp; + Best practices for using Elastic IP | 14/05/2026 | 14/05/2026 | <https://cloudjourney.awsstudygroup.com/> |
+| 6 | - Study Module 03. <br>&emsp; + Review networking architecture <br>&emsp; + Summarize key concepts <br>&emsp; + Prepare for the next laboratory exercises | 15/05/2026 | 15/05/2026 | <https://cloudjourney.awsstudygroup.com/> |
 
 ### Week 4 Achievements:
 
-* Understood what AWS is and mastered the basic service groups: 
-  * Compute
-  * Storage
-  * Networking 
-  * Database
-  * ...
-
-* Successfully created and configured an AWS Free Tier account.
-
-* Became familiar with the AWS Management Console and learned how to find, access, and use services via the web interface.
-
-* Installed and configured AWS CLI on the computer, including:
-  * Access Key
-  * Secret Key
-  * Default Region
-  * ...
-
-* Used AWS CLI to perform basic operations such as:
-
-  * Check account & configuration information
-  * Retrieve the list of regions
-  * View EC2 service
-  * Create and manage key pairs
-  * Check information about running services
-  * ...
-
-* Acquired the ability to connect between the web interface and CLI to manage AWS resources in parallel.
-* ...
+* Successfully completed the FCJ weekly check-in.
+* Understood the role of an Internet Gateway and how it enables Internet access for resources within a VPC.
+* Learned how a NAT Gateway allows instances in private subnets to access the Internet securely without exposing them to inbound traffic.
+* Understood the purpose of Elastic IP and how to associate it with EC2 instances for static public IP addressing.
+* Strengthened knowledge of AWS networking architecture and communication between VPC components.
+* Completed the theoretical content of Module 03 and prepared for the upcoming hands-on labs.

@@ -5,53 +5,32 @@ weight: 2
 chapter: false
 pre: " <b> 1.12. </b> "
 ---
-{{% notice warning %}} 
-⚠️ **Note:** The following information is for reference purposes only. Please **do not copy verbatim** for your own report, including this warning.
-{{% /notice %}}
-
-
 ### Week 12 Objectives:
 
-* Connect and get acquainted with members of First Cloud AI Journey.
-* Understand basic AWS services, how to use the console & CLI.
+* Finalize the architecture diagram and workshop.
+* Publish a technical blog on the AWS Vietnam Community.
+* Complete Lab 57.
+* Study Module 05 and explore AWS security services.
 
 ### Tasks to be carried out this week:
-| Day | Task                                                                                                                                                                                                   | Start Date | Completion Date | Reference Material                        |
-| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ---------- | --------------- | ----------------------------------------- |
-| 2   | - Get acquainted with FCAJ members <br> - Read and take note of internship unit rules and regulations                                                                                                   | 08/11/2025 | 08/11/2025      |
-| 3   | - Learn about AWS and its types of services <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                              | 08/12/2025 | 08/12/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Create AWS Free Tier account <br> - Learn about AWS Console & AWS CLI <br> - **Practice:** <br>&emsp; + Create AWS account <br>&emsp; + Install & configure AWS CLI <br> &emsp; + How to use AWS CLI | 08/13/2025 | 08/13/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Learn basic EC2: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - SSH connection methods to EC2 <br> - Learn about Elastic IP   <br>                            | 08/14/2025 | 08/15/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Practice:** <br>&emsp; + Launch an EC2 instance <br>&emsp; + Connect via SSH <br>&emsp; + Attach an EBS volume                                                                                     | 08/15/2025 | 08/15/2025      | <https://cloudjourney.awsstudygroup.com/> |
 
+| Day | Task | Start Date | Completion Date | Reference Material |
+| --- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------- | --------------- | ----------------------------------------- |
+| 2 | - Finalize the architecture diagram. <br>&emsp; + Review and update the architecture design <br>&emsp; + Complete the workshop requirements | 06/07/2026 | 07/07/2026 | <https://cloudjourney.awsstudygroup.com/> |
+| 3 | - Write and publish a technical blog. <br>&emsp; + Summarize the knowledge gained <br>&emsp; + Publish the article to the AWS Vietnam Community | 08/07/2026 | 08/07/2026 | <https://aws.amazon.com/blogs/> |
+| 4 | - Complete Lab 57. <br>&emsp; + Follow the lab instructions <br>&emsp; + Review previously learned topics | 09/07/2026 | 09/07/2026 | <https://cloudjourney.awsstudygroup.com/> |
+| 5 | - Study Module 05. <br>&emsp; + AWS Shared Responsibility Model <br>&emsp; + Overview of AWS security services | 10/07/2026 | 11/07/2026 | <https://www.youtube.com/@AWSStudyGroup> |
+| 6 | - Explore AWS security services. <br>&emsp; + AWS Identity and Access Management (IAM) <br>&emsp; + Amazon Cognito <br>&emsp; + AWS Organizations <br>&emsp; + AWS IAM Identity Center (SSO) <br>&emsp; + AWS Key Management Service (KMS) | 12/07/2026 | 12/07/2026 | <https://cloudjourney.awsstudygroup.com/> |
 
 ### Week 12 Achievements:
 
-* Understood what AWS is and mastered the basic service groups: 
-  * Compute
-  * Storage
-  * Networking 
-  * Database
-  * ...
-
-* Successfully created and configured an AWS Free Tier account.
-
-* Became familiar with the AWS Management Console and learned how to find, access, and use services via the web interface.
-
-* Installed and configured AWS CLI on the computer, including:
-  * Access Key
-  * Secret Key
-  * Default Region
-  * ...
-
-* Used AWS CLI to perform basic operations such as:
-
-  * Check account & configuration information
-  * Retrieve the list of regions
-  * View EC2 service
-  * Create and manage key pairs
-  * Check information about running services
-  * ...
-
-* Acquired the ability to connect between the web interface and CLI to manage AWS resources in parallel.
-* ...
+* Successfully finalized the architecture diagram and completed the workshop requirements.
+* Wrote and published a technical blog in the AWS Vietnam Community.
+* Successfully completed Lab 57 and reinforced the knowledge gained throughout the training program.
+* Acquired the fundamental concepts covered in Module 05.
+* Understood the AWS Shared Responsibility Model and the security responsibilities shared between AWS and customers.
+* Learned how to use AWS Identity and Access Management (IAM) to manage users, groups, and access permissions.
+* Explored Amazon Cognito for user authentication and authorization in cloud applications.
+* Understood the role of AWS Organizations in managing multiple AWS accounts.
+* Learned about AWS IAM Identity Center (SSO) for centralized identity and Single Sign-On management.
+* Understood the purpose of AWS Key Management Service (KMS) for creating and managing encryption keys to protect data on AWS.

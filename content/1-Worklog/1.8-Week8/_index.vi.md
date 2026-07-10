@@ -5,55 +5,29 @@ weight: 1
 chapter: false
 pre: " <b> 1.8. </b> "
 ---
-{{% notice warning %}}
-⚠️ **Lưu ý:** Các thông tin dưới đây chỉ nhằm mục đích tham khảo, vui lòng **không sao chép nguyên văn** cho bài báo cáo của bạn kể cả warning này.
-{{% /notice %}}
-
-
 ### Mục tiêu tuần 8:
 
-* Kết nối, làm quen với các thành viên trong First Cloud AI Journey.
-* Hiểu dịch vụ AWS cơ bản, cách dùng console & CLI.
+* Hoàn thành Lab 57.
+* Thực hành triển khai Static Website Hosting trên Amazon S3.
+* Tìm hiểu Bucket Policy.
+* Tìm hiểu và thực hành S3 Versioning.
 
 ### Các công việc cần triển khai trong tuần này:
-| Thứ | Công việc                                                                                                                                                                                   | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu                            |
-| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | --------------- | ----------------------------------------- |
-| 2   | - Làm quen với các thành viên FCAJ <br> - Đọc và lưu ý các nội quy, quy định tại đơn vị thực tập                                                                                             | 11/08/2025   | 11/08/2025      |
-| 3   | - Tìm hiểu AWS và các loại dịch vụ <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                            | 12/08/2025   | 12/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Tạo AWS Free Tier account <br> - Tìm hiểu AWS Console & AWS CLI <br> - **Thực hành:** <br>&emsp; + Tạo AWS account <br>&emsp; + Cài AWS CLI & cấu hình <br> &emsp; + Cách sử dụng AWS CLI | 13/08/2025   | 13/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Tìm hiểu EC2 cơ bản: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - Các cách remote SSH vào EC2 <br> - Tìm hiểu Elastic IP   <br>                  | 14/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Thực hành:** <br>&emsp; + Tạo EC2 instance <br>&emsp; + Kết nối SSH <br>&emsp; + Gắn EBS volume                                                                                         | 15/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
 
+| Thứ | Công việc | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu |
+| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ------------ | --------------- | ----------------------------------------- |
+| 2 | - Hoàn thành Lab 57. <br>&emsp; + Kiểm tra lại các bước triển khai <br>&emsp; + Xác minh kết quả của bài Lab | 08/06/2026 | 08/06/2026 | <https://cloudjourney.awsstudygroup.com/> |
+| 3 | - Thực hành Static Website Hosting trên Amazon S3. <br>&emsp; + Tạo S3 Bucket <br>&emsp; + Upload website tĩnh <br>&emsp; + Cấu hình Static Website Hosting | 09/06/2026 | 09/06/2026 | <https://docs.aws.amazon.com/AmazonS3/latest/userguide/WebsiteHosting.html> |
+| 4 | - Tìm hiểu Bucket Policy. <br>&emsp; + Cấu trúc JSON Policy <br>&emsp; + Cấp quyền Public Read <br>&emsp; + Kiểm soát quyền truy cập Bucket | 10/06/2026 | 10/06/2026 | <https://docs.aws.amazon.com/AmazonS3/latest/userguide/bucket-policies.html> |
+| 5 | - Tìm hiểu Amazon S3 Versioning. <br>&emsp; + Kích hoạt Versioning <br>&emsp; + Quản lý nhiều phiên bản Object <br>&emsp; + Khôi phục dữ liệu khi cần | 11/06/2026 | 11/06/2026 | <https://docs.aws.amazon.com/AmazonS3/latest/userguide/Versioning.html> |
+| 6 | - Ôn tập và tổng hợp kiến thức. <br>&emsp; + Kiểm tra Website đã triển khai <br>&emsp; + Đánh giá Bucket Policy <br>&emsp; + Thực hành quản lý Versioning | 12/06/2026 | 12/06/2026 | <https://cloudjourney.awsstudygroup.com/> |
 
 ### Kết quả đạt được tuần 8:
 
-* Hiểu AWS là gì và nắm được các nhóm dịch vụ cơ bản: 
-  * Compute
-  * Storage
-  * Networking 
-  * Database
-  * ...
-
-* Đã tạo và cấu hình AWS Free Tier account thành công.
-
-* Làm quen với AWS Management Console và biết cách tìm, truy cập, sử dụng dịch vụ từ giao diện web.
-
-* Cài đặt và cấu hình AWS CLI trên máy tính bao gồm:
-  * Access Key
-  * Secret Key
-  * Region mặc định
-  * ...
-
-* Sử dụng AWS CLI để thực hiện các thao tác cơ bản như:
-
-  * Kiểm tra thông tin tài khoản & cấu hình
-  * Lấy danh sách region
-  * Xem dịch vụ EC2
-  * Tạo và quản lý key pair
-  * Kiểm tra thông tin dịch vụ đang chạy
-  * ...
-
-* Có khả năng kết nối giữa giao diện web và CLI để quản lý tài nguyên AWS song song.
-* ...
-
-
+* Hoàn thành Lab 57 theo yêu cầu của chương trình.
+* Triển khai thành công một Static Website trên Amazon S3.
+* Hiểu được quy trình cấu hình Static Website Hosting.
+* Nắm được cách sử dụng Bucket Policy để kiểm soát quyền truy cập vào S3 Bucket.
+* Hiểu được cơ chế hoạt động của S3 Versioning và lợi ích trong việc bảo vệ dữ liệu.
+* Biết cách quản lý nhiều phiên bản của Object và khôi phục dữ liệu khi cần thiết.
+* Củng cố kỹ năng triển khai và quản lý dịch vụ Amazon S3 trong các tình huống thực tế.
