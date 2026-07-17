@@ -19,7 +19,7 @@ Bài viết về Claude Apps Gateway giúp em nhận ra rằng khi triển khai 
 
 Em chọn bài viết này để tổng hợp lại những kiến thức đã học và liên hệ với các dịch vụ AWS mà em được tiếp cận trong quá trình thực tập.
 
-![Kiến trúc Claude Apps Gateway for AWS](/images/blog2/claude-apps-gateway-architecture.png)
+![Kiến trúc Claude Apps Gateway for AWS](/images/blog2/Claude-apps-gateway-architecture.png)
 
 *Hình 1. Kiến trúc Claude Apps Gateway for AWS. (Nguồn: AWS Machine Learning Blog)*
 
