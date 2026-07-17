@@ -38,7 +38,7 @@ pre: " <b> 1.1. </b> "
 
 ### Images:
 
-![w1.1](/images/worklog/w1.1.jpg)
+![w1.1](/images/worklog/W1.1.jpg)
 *Figure 1: Check-in at the kickoff meeting*
 ![w1.2](/images/worklog/w1.2.png)
 *Figure 2: Completing the initial 5 AWS tasks*
