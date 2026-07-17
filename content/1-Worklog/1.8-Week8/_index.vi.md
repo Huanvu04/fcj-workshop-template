@@ -31,3 +31,16 @@ pre: " <b> 1.8. </b> "
 * Hiểu được cơ chế hoạt động của S3 Versioning và lợi ích trong việc bảo vệ dữ liệu.
 * Biết cách quản lý nhiều phiên bản của Object và khôi phục dữ liệu khi cần thiết.
 * Củng cố kỹ năng triển khai và quản lý dịch vụ Amazon S3 trong các tình huống thực tế.
+
+### Hình ảnh:
+
+![w8.1](/images/worklog/w8.1.png)
+*Hình 1: Tải dữ liệu (source code) lên S3 bucket lưu trữ*
+![w8.2](/images/worklog/w8.2.png)
+*Hình 2: Test website*
+![w8.3](/images/worklog/w8.3.png)
+*Hình 3: Block all public access*
+![w8.4](/images/worklog/w8.4.png)
+*Hình 4: Bucket versioning*
+![w8.5](/images/worklog/w8.5.png)
+*Hình 5: Move objects*

@@ -31,3 +31,9 @@ pre: " <b> 1.5. </b> "
 * Thực hành kết nối thành công đến EC2 Instance thông qua SSH.
 * Biết cách sử dụng Key Pair để xác thực và quản lý truy cập EC2.
 * Củng cố kiến thức về quản trị tài nguyên và dịch vụ mạng trên nền tảng AWS.
+
+### Hình ảnh:
+
+![w5.1](/images/worklog/w5.1.png)
+![w5.2](/images/worklog/w5.2.png)
+*Hình 1: kết nối SSH và kiểm tra mạng*

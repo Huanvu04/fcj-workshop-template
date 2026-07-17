@@ -31,3 +31,16 @@ pre: " <b> 1.8. </b> "
 * Gained practical knowledge of Amazon S3 Versioning and its role in data protection.
 * Learned how to manage multiple object versions and restore previous versions when necessary.
 * Strengthened practical skills in deploying and managing Amazon S3 services for real-world scenarios.
+
+### Images:
+
+![w8.1](/images/worklog/w8.1.png)
+*Figure 1: Upload source code to S3 bucket storage*
+![w8.2](/images/worklog/w8.2.png)
+*Figure 2: Test website*
+![w8.3](/images/worklog/w8.3.png)
+*Figure 3: Block all public access*
+![w8.4](/images/worklog/w8.4.png)
+*Figure 4: Bucket versioning*
+![w8.5](/images/worklog/w8.5.png)
+*Figure 5: Move objects*

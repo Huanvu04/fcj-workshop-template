@@ -31,3 +31,8 @@ pre: " <b> 1.7. </b> "
 * Hiểu được ưu điểm của S3 Intelligent-Tiering trong việc tối ưu chi phí lưu trữ.
 * Có khả năng lựa chọn Storage Class phù hợp dựa trên tần suất truy cập và yêu cầu của ứng dụng.
 * Chuẩn bị đầy đủ kiến thức để thực hiện Lab 57 trong tuần tiếp theo.
+
+### Hình ảnh:
+
+![w7.1](/images/worklog/w7.1.png)
+*Hình 1: Làm bài lab 24*

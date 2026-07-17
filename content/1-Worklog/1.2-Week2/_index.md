@@ -31,3 +31,8 @@ pre: " <b> 1.2. </b> "
 * Understood how AWS Site-to-Site VPN enables secure connectivity between on-premises environments and AWS.
 * Learned how Security Groups and Network ACLs are used to control network access to AWS resources.
 * Successfully completed the theoretical content of Module 02 and prepared for the upcoming hands-on labs.
+
+### Images:
+
+![w2.1](/images/worklog/w2.1.png)
+*Figure 1: Learning the theoretical concepts of Module 02*

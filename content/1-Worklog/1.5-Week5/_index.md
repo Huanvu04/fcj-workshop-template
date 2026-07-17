@@ -31,3 +31,9 @@ pre: " <b> 1.5. </b> "
 * Successfully connected to Amazon EC2 instances using SSH.
 * Learned how to use Key Pairs for secure authentication and EC2 access.
 * Strengthened practical knowledge of AWS networking and resource management.
+
+### Images:
+
+![w5.1](/images/worklog/w5.1.png)
+![w5.2](/images/worklog/w5.2.png)
+*Figure 1: SSH connection and network verification*

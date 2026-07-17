@@ -31,3 +31,15 @@ pre: " <b> 1.10. </b> "
 * Hiểu được cơ chế đồng bộ dữ liệu giữa File Gateway và Amazon S3.
 * Củng cố kiến thức về giải pháp Hybrid Cloud Storage trên nền tảng AWS.
 * Hoàn thành toàn bộ nội dung thực tập theo kế hoạch của 10 tuần đầu tiên.
+
+### Hình ảnh:
+
+![w10.1](/images/worklog/w10.1.png)
+*Hình 1: Tạo Storage Gateway*
+![w10.2](/images/worklog/w10.2.png)
+*Hình 2: Tạo File Shares*
+![w10.3](/images/worklog/w10.3.png)
+![w10.4](/images/worklog/w10.4.png)
+*Hình 3: Ổ đĩa Z mới đc tạo*
+![w10.5](/images/worklog/w10.5.png)
+*Hình 4: Truy cập vào S3 thì tập tin đã được đồng bộ*

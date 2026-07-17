@@ -31,3 +31,8 @@ pre: " <b> 1.6. </b> "
 * Hiểu các thành phần của AWS Backup như Backup Plan, Backup Vault và Recovery Point.
 * Thực hành thành công quá trình khôi phục dữ liệu (Test Restore) từ bản sao lưu.
 * Củng cố kiến thức về lưu trữ và bảo vệ dữ liệu trên nền tảng AWS.
+
+### Hình ảnh:
+
+![w6.1](/images/worklog/w6.1.png)
+*Hình 1: Học lý thuyết module03*

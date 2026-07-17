@@ -31,3 +31,8 @@ pre: " <b> 1.2. </b> "
 * Hiểu nguyên lý hoạt động của VPN và các phương thức kết nối giữa hệ thống On-premises với AWS.
 * Nắm được chức năng của Security Group và Network ACL trong việc kiểm soát truy cập tài nguyên AWS.
 * Hoàn thành nội dung lý thuyết Module 02 và chuẩn bị kiến thức cho các bài thực hành ở những tuần tiếp theo.
+
+### Hình ảnh:
+
+![w2.1](/images/worklog/w2.1.png)
+*Hình 1: Học lý thuyết module02*

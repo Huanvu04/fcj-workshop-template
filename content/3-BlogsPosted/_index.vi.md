@@ -6,17 +6,14 @@ chapter: false
 pre: " <b> 3. </b> "
 ---
 
-{{% notice warning %}}  
-⚠️ **Lưu ý:** Các thông tin dưới đây chỉ nhằm mục đích tham khảo, vui lòng **không sao chép nguyên văn** cho bài báo cáo của bạn kể cả warning này.
-{{% /notice %}}
+Phần này tổng hợp các bài blog AWS mình đã đọc, dịch và ghi chú lại trong quá trình tìm hiểu thêm về kiến trúc cloud và AI trong thực tế.
 
-Tại đây sẽ là phần liệt kê, giới thiệu các blogs mà các bạn đã đăng trên [AWS Study Group](https://www.facebook.com/groups/awsstudygroupfcj). Ví dụ:
+### [Blog 1 - AWS Architecture Blog | Những điều em học được từ chiến lược Disaster Recovery của S&P Global](3.1-Blog1/)
 
-###  [Blog 1 - SESSION POLICIES TRONG AMAZON EKS POD IDENTITY](3.1-Blog1/)
-Blog này giới thiệu Amazon EKS Pod Identity vừa bổ sung tính năng session policies, cho phép bạn thu hẹp quyền IAM một cách linh hoạt và chính xác cho từng pod mà không cần tạo thêm nhiều IAM roles riêng biệt. Đây là bước tiến quan trọng giúp áp dụng nguyên tắc least privilege hiệu quả hơn trong môi trường Kubernetes quy mô lớn.
+Bài viết trình bày cách S&P Global xây dựng giải pháp Disaster Recovery bằng Amazon FSx for NetApp ONTAP, SnapMirror, Snapshot và FlexClone nhằm giảm thời gian gián đoạn và đảm bảo khả năng truy cập dữ liệu.
 
-###  [Blog 2 - ...](3.2-Blog2/)
-Blog này giới thiệu Amazon EKS Pod Identity vừa bổ sung tính năng session policies, cho phép bạn thu hẹp quyền IAM một cách linh hoạt và chính xác cho từng pod mà không cần tạo thêm nhiều IAM roles riêng biệt. Đây là bước tiến quan trọng giúp áp dụng nguyên tắc least privilege hiệu quả hơn trong môi trường Kubernetes quy mô lớn.
+### [Blog 2 - Claude Apps Gateway for AWS – Những điều em học được từ AWS Machine Learning Blog](3.2-Blog2/)
 
-###  [Blog 3 - ...](3.3-Blog3/)
-Blog này giới thiệu Amazon EKS Pod Identity vừa bổ sung tính năng session policies, cho phép bạn thu hẹp quyền IAM một cách linh hoạt và chính xác cho từng pod mà không cần tạo thêm nhiều IAM roles riêng biệt. Đây là bước tiến quan trọng giúp áp dụng nguyên tắc least privilege hiệu quả hơn trong môi trường Kubernetes quy mô lớn.
+Bài viết giới thiệu Claude Apps Gateway for AWS và cách doanh nghiệp có thể quản lý tập trung việc xác thực, chính sách, giám sát, định tuyến và kiểm soát chi phí khi triển khai các ứng dụng AI.
+
+Thông qua hoạt động đọc và viết blog, em không chỉ củng cố kiến thức về AWS mà còn nâng cao khả năng nghiên cứu, phân tích và tổng hợp các tài liệu kỹ thuật.

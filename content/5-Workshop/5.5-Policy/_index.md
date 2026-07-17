@@ -1,99 +1,78 @@
 ---
-title : "VPC Endpoint Policies"
+title : "Validate DynamoDB, indexes, and PITR"
 date : 2024-01-01
 weight : 5
 chapter : false
-pre : " <b> 5.5. </b> "
+pre : " <b> 5.5 </b> "
 ---
 
-When you create an interface or gateway endpoint, you can attach an endpoint policy to it that controls access to the service to which you are connecting. A VPC endpoint policy is an IAM resource policy that you attach to an endpoint. If you do not attach a policy when you create an endpoint, AWS attaches a default policy for you that allows full access to the service through the endpoint.
+### Goal
+This section validates TaskManager DynamoDB tables, query indexes, and Point-in-Time Recovery (PITR) configuration.
 
-You can create a policy that restricts access to specific S3 buckets only. This is useful if you only want certain S3 Buckets to be accessible through the endpoint.
+### Check DynamoDB tables
+1. Open the **Amazon DynamoDB** console.
+2. Choose **Tables**.
+3. Review the tables with the `TaskManager` prefix.
 
-In this section you will create a VPC endpoint policy that restricts access to the S3 bucket specified in the VPC endpoint policy.
+![Image](/images/workshop/dynamodb.png)
 
-![endpoint diagram](/images/5-Workshop/5.5-Policy/s3-bucket-policy.png)
+Main tables:
+* `TaskManager-ActivityLogs-dev`
+* `TaskManager-Boards-dev`
+* `TaskManager-Notifications-dev`
+* `TaskManager-Tasks-dev`
+* `TaskManager-Users-dev`
 
-#### Connect to an EC2 instance and verify connectivity to S3
+The tables are **Active** and use **On-demand** capacity mode, which is suitable for small or unpredictable workloads because read/write capacity does not need to be configured manually.
 
-1. Start a new AWS Session Manager session on the instance named Test-Gateway-Endpoint. From the session, verify that you can list the contents of the bucket you created in Part 1: Access S3 from VPC:
-
-```
-aws s3 ls s3://\<your-bucket-name\>
-```
-![test](/images/5-Workshop/5.5-Policy/test1.png)
-
-The bucket contents include the two 1 GB files uploaded in earlier.
-
-2. Create a new S3 bucket; follow the naming pattern you used in Part 1, but add a '-2' to the name. Leave other fields as default and click create
-
-![create bucket](/images/5-Workshop/5.5-Policy/create-bucket.png)
-
-Successfully create bucket
-
-![Success](/images/5-Workshop/5.5-Policy/create-bucket-success.png)
-
-3. Navigate to: Services > VPC > Endpoints, then select the Gateway VPC endpoint you created earlier. Click the Policy tab. Click Edit policy.
-
-![policy](/images/5-Workshop/5.5-Policy/policy1.png)
-
-The default policy allows access to all S3 Buckets through the VPC endpoint.
-
-4. In Edit Policy console, copy & Paste the following policy, then replace yourbucketname-2 with your 2nd bucket name. This policy will allow access through the VPC endpoint to your new bucket, but not any other bucket in Amazon S3. Click Save to apply the policy.
-
-```
-{
-  "Id": "Policy1631305502445",
-  "Version": "2012-10-17",
-  "Statement": [
-    {
-      "Sid": "Stmt1631305501021",
-      "Action": "s3:*",
-      "Effect": "Allow",
-      "Resource": [
-      				"arn:aws:s3:::yourbucketname-2",
-       				"arn:aws:s3:::yourbucketname-2/*"
-       ],
-      "Principal": "*"
-    }
-  ]
-}
-```
-
-![custom policy](/images/5-Workshop/5.5-Policy/policy2.png)
-
-Successfully customize policy
-
-![success](/static/images/5-Workshop/5.5-Policy/success.png)
-
-5. From your session on the Test-Gateway-Endpoint instance, test access to the S3 bucket you created in Part 1: Access S3 from VPC
-```
-aws s3 ls s3://<yourbucketname>
-```
-
-This command will return an error because access to this bucket is not permitted by your new VPC endpoint policy:
-
-![error](/static/images/5-Workshop/5.5-Policy/error.png)
-
-6. Return to your home directory on your EC2 instance ` cd~ `
-
-+ Create a file ```fallocate -l 1G test-bucket2.xyz ```
-+ Copy file to 2nd bucket ```aws s3 cp test-bucket2.xyz s3://<your-2nd-bucket-name>```
-
-![success](/static/images/5-Workshop/5.5-Policy/test2.png)
-
-This operation succeeds because it is permitted by the VPC endpoint policy.
-
-![success](/static/images/5-Workshop/5.5-Policy/test2-success.png)
-
-+ Then we test access to the first bucket by copy the file to 1st bucket `aws s3 cp test-bucket2.xyz s3://<your-1st-bucket-name>`
-
-![fail](/static/images/5-Workshop/5.5-Policy/test2-fail.png)
-
-This command will return an error because access to this bucket is not permitted by your new VPC endpoint policy.
-
-#### Part 3 Summary:
-
-In this section, you created a VPC endpoint policy for Amazon S3, and used the AWS CLI to test the policy. AWS CLI actions targeted to your original S3 bucket failed because you applied a policy that only allowed access to the second bucket you created. AWS CLI actions targeted for your second bucket succeeded because the policy allowed them. These policies can be useful in situations where you need to control access to resources through VPC endpoints.
+### Detailed information for main tables
 
 
+### Check Global Secondary Index
+Open the `TaskManager-Users-dev` table and choose the **Indexes** tab.
+
+![Image](/images/workshop/indextables.png)
+
+The `TaskManager-Users-dev` table has this GSI:
+* **Index name:** `EmailIndex`
+* **Partition key:** `email`
+* **Status:** Active
+* **Capacity:** On-demand
+
+This index allows the system to find users by email efficiently without scanning the entire table.
+
+### Check PITR on important tables
+Point-in-Time Recovery allows DynamoDB to keep continuous backups for up to 35 days. This is useful when data is accidentally updated or deleted.
+
+![Image](/images/workshop/pitr-edit.png)
+
+In the **Edit point-in-time recovery settings** screen, PITR is enabled with a 35-day backup recovery period.
+
+##### Board table
+![Image](/images/workshop/pitr-board.png)
+
+* **Table `TaskManager-Boards-dev`:**
+    * Partition key: `boardId`
+    * Capacity mode: On-demand
+    * Table status: Active
+    * PITR: On
+##### Task table
+![Image](/images/workshop/pitr-tasks.png)
+
+* **Table `TaskManager-Tasks-dev`:**
+    * Partition key: `boardId`
+    * Sort key: `taskId`
+    * Capacity mode: On-demand
+    * Table status: Active
+    * PITR: On
+##### User table    
+![Image](/images/workshop/pitr-users.png)
+
+* **Table `TaskManager-Users-dev`:**
+    * Partition key: `userId`
+    * Capacity mode: On-demand
+    * Table status: Active
+    * PITR: On
+
+### Conclusion
+DynamoDB is configured appropriately for TaskManager: tables are separated by domain, an email lookup index is available, on-demand capacity is enabled, and PITR protects important data tables.

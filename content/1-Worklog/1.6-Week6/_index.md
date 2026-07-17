@@ -31,3 +31,8 @@ pre: " <b> 1.6. </b> "
 * Learned the roles of Backup Plans, Backup Vaults, Backup Jobs, and Recovery Points.
 * Successfully performed a restore test using AWS Backup.
 * Strengthened practical knowledge of data storage, backup, and recovery services on AWS.
+
+### Images:
+
+![w6.1](/images/worklog/w6.1.png)
+*Figure 1: Learning the theoretical concepts of Module 03*

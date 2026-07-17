@@ -1,20 +1,30 @@
 ---
-title : "Access S3 from on-premises"
+title : "Configure authentication, API, and backend"
 date : 2024-01-01
 weight : 4
 chapter : false
 pre : " <b> 5.4. </b> "
 ---
 
-#### Overview
+### Overview
+This section validates the main layers behind the TaskManager frontend:
 
-+ In this section, you will create an Interface endpoint to access Amazon S3 from a simulated on-premises environment. The Interface endpoint will allow you to route to Amazon S3 over a VPN connection from your simulated on-premises environment.
+* **Amazon Cognito**: manages users and issues login tokens.
+* **AWS AppSync**: provides the GraphQL API for the frontend.
+* **AWS Lambda**: runs business logic for users, boards, tasks, and stream processing.
+* **Amazon CloudWatch**: stores logs for backend troubleshooting.
 
-+ Why using **Interface endpoint**: 
-    + Gateway endpoints only work with resources running in the VPC where they are created. Interface endpoints work with resources running in VPC, and also resources running in on-premises environments. Connectivty from your on-premises environment to the cloud can be provided by AWS Site-to-Site VPN or AWS Direct Connect.
-    + Interface endpoints allow you to connect to services powered by AWS PrivateLink. These services include some AWS services, services hosted by other AWS customers and partners in their own VPCs (referred to as PrivateLink Endpoint Services), and supported AWS Marketplace Partner services. For this workshop, we will focus on connecting to Amazon S3.
+### Authentication and API flow
+1. The user signs in to the frontend.
+2. Cognito authenticates the user and returns a JWT token.
+3. The frontend sends GraphQL requests to AppSync with the token.
+4. AppSync validates the token and invokes Lambda resolvers.
+5. Lambda reads and writes data in DynamoDB.
+6. CloudWatch stores logs for troubleshooting.
 
-![Interface endpoint architecture](/images/5-Workshop/5.4-S3-onprem/diagram3.png)
-
-
+### Content
+* Validate the Cognito User Pool
+* Validate the AppSync GraphQL API
+* Validate Lambda functions
+* Validate CloudWatch logs
 

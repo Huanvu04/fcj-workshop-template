@@ -1,18 +1,18 @@
 ---
-title : "Truy cập S3 từ VPC"
+title : "Triển khai frontend với Amazon S3"
 date : 2024-01-01 
 weight : 3
 chapter : false
 pre : " <b> 5.3. </b> "
 ---
 
-#### Sử dụng Gateway endpoint
+### Tổng quan
+Frontend của TaskManager là static web application. Sau khi build, các file HTML, JavaScript, CSS và SVG được upload lên Amazon S3 bucket `taskmanager-frontend-dev-*`.
 
-Trong phần này, bạn sẽ tạo một Gateway endpoint để truy cập Amazon S3 từ một EC2 instance. Gateway endpoint sẽ cho phép tải một object lên S3 bucket mà không cần sử dụng Internet Công cộng. Để tạo endpoint, bạn phải chỉ định VPC mà bạn muốn tạo endpoint và dịch vụ (trong trường hợp này là S3) mà bạn muốn thiết lập kết nối.
+Trong kiến trúc production, S3 bucket nên được đặt private và phân phối qua CloudFront. Trong phạm vi workshop này, chúng ta tập trung xác minh rằng frontend artifacts đã được upload thành công vào S3.
 
-![overview](/images/5-Workshop/5.3-S3-vpc/diagram2.png)
+![Hình](/images/workshop/s3-upload.png)
 
-#### Nội dung
-
-- [Tạo gateway endpoint](3.1-create-gwe/)
-- [Test gateway endpoint](3.2-test-gwe/)
+### Nội dung
+* Upload frontend assets lên S3
+* Kiểm tra kết quả upload frontend

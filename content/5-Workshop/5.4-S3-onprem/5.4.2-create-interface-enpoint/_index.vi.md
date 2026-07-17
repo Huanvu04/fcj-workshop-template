@@ -1,43 +1,34 @@
 ---
-title : "Tạo một S3 Interface endpoint"
+title : "Kiểm tra AppSync GraphQL API"
 date : 2024-01-01
 weight : 2
 chapter : false
 pre : " <b> 5.4.2 </b> "
 ---
 
-Trong phần này, bạn sẽ tạo và kiểm tra Interface Endpoint  S3 bằng cách sử dụng môi trường truyền thống mô phỏng.
+### Mục tiêu
+Xác minh AWS AppSync API đã được tạo để frontend gọi GraphQL query, mutation và subscription.
 
-1. Quay lại Amazon VPC menu. Trong thanh điều hướng bên trái, chọn Endpoints, sau đó click Create Endpoint.
+### Kiểm tra API
+1. Mở **AWS AppSync** console.
+2. Chọn **APIs**.
+3. Kiểm tra API `TaskManagerAPI-dev`.
 
-2. Trong Create endpoint console:
-+ Đặt tên interface endpoint
-+ Trong Service category, chọn **aws services** 
+![Hình](/images/workshop/appsync.png)
 
-![name](/images/5-Workshop/5.4-S3-onprem/s3-interface-endpoint1.png)
+Trong ảnh, AppSync có 1 API:
+* **Name:** `TaskManagerAPI-dev`
+* **API type:** GraphQL
+* **Primary auth mode:** Amazon Cognito
+* **HTTP endpoint:** endpoint HTTPS cho query/mutation
+* **Realtime endpoint:** endpoint WebSocket cho subscription
 
-3.  Trong Search box, gõ S3 và nhấn Enter. Chọn endpoint có tên com.amazonaws.us-east-1.s3. Đảm bảo rằng cột Type có giá trị Interface.
+### Vai trò của AppSync
+AppSync là lớp API trung tâm của TaskManager:
+* **Query:** lấy danh sách board, task, user hoặc notification.
+* **Mutation:** tạo/cập nhật/xóa task, board hoặc user data.
+* **Subscription:** nhận cập nhật real-time khi task thay đổi.
+* **Authorization:** xác thực request bằng Cognito JWT token.
 
-![service](/images/5-Workshop/5.4-S3-onprem/s3-interface-endpoint2.png)
-
-4. Đối với VPC, chọn VPC Cloud từ drop-down.
-{{% notice warning %}}
-Đảm bảo rằng bạn chọn "VPC Cloud" và không phải "VPC On-prem"
-{{% /notice %}}
-+ Mở rộng **Additional settings** và đảm bảo rằng Enable DNS name *không* được chọn (sẽ sử dụng điều này trong phần tiếp theo của workshop)
-
-![vpc](/images/5-Workshop/5.4-S3-onprem/s3-interface-endpoint3.png)
-
-5. Chọn 2 subnets trong AZs sau: us-east-1a and us-east-1b
-
-![subnets](/images/5-Workshop/5.4-S3-onprem/s3-interface-endpoint4.png)
-
-6. Đối với Security group, chọn SGforS3Endpoint:
-
-![sg](/images/5-Workshop/5.4-S3-onprem/s3-interface-endpoint5.png)
-
-7. Giữ default policy - full access và click Create endpoint
-
-![success](/images/5-Workshop/5.4-S3-onprem/s3-interface-endpoint-success.png)
-
-Chúc mừng bạn đã tạo thành công S3 interface endpoint. Ở bước tiếp theo, chúng ta sẽ kiểm tra interface endpoint.
+### Kết luận
+GraphQL API đã được tạo thành công và kết nối đúng với Cognito làm phương thức xác thực chính.

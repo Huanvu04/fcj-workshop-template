@@ -34,3 +34,8 @@ pre: " <b> 1.12 </b> "
 * Hiểu vai trò của AWS Organizations trong quản lý nhiều tài khoản AWS.
 * Tìm hiểu AWS IAM Identity Center (SSO) để triển khai cơ chế đăng nhập một lần (Single Sign-On).
 * Hiểu chức năng của AWS Key Management Service (KMS) trong việc tạo và quản lý khóa mã hóa nhằm bảo vệ dữ liệu trên AWS.
+
+### Hình ảnh:
+
+![w12.1](/images/worklog/w12.1.png)
+*Hình 1: Học lý thuyết module05*

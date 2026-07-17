@@ -31,3 +31,8 @@ pre: " <b> 1.7. </b> "
 * Understood how S3 Intelligent-Tiering helps optimize storage costs automatically.
 * Developed the ability to choose the appropriate Storage Class based on data access patterns and business requirements.
 * Built a solid foundation for completing Lab 57 in the following week.
+
+### Images:
+
+![w7.1](/images/worklog/w7.1.png)
+*Figure 1: Completing Lab 24*
