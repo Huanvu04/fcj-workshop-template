@@ -18,7 +18,7 @@ Trong workshop này, bạn sẽ kiểm tra các thành phần chính của hệ 
 * Amazon CloudWatch thu thập log từ các Lambda functions và các thành phần vận hành.
 
 ### Kiến trúc tổng quan
-![Hình](images/workshop/tongquan.png)
+![Hình](/images/workshop/tongquan.png)
 
 
 ### Luồng hoạt động chính

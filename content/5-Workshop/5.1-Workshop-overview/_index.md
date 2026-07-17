@@ -18,7 +18,7 @@ In this workshop, you will examine the core components of the **Task Management 
 * Amazon CloudWatch collects logs from Lambda functions and operational components.
 
 ### High-level Architecture
-![Task Management System Architecture](images/workshop/tongquan.png)
+![Task Management System Architecture](/images/workshop/tongquan.png)
 
 
 ### Main request flow

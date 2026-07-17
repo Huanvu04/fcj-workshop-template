@@ -14,14 +14,14 @@ Verify that Amazon Cognito User Pool is used as the authentication layer for Tas
 2. Choose **User pools**.
 3. Confirm that the `taskmanager-users-dev` user pool exists.
 
-![Image](images/workshop/cognito.png)
+![Image](/images/workshop/cognito.png)
 
 The screenshot shows one user pool named `taskmanager-users-dev` in the `ap-southeast-1` Region.
 
 ### Check User Pool information
 Open the `taskmanager-users-dev` user pool and review the **Overview** tab.
 
-![Image](images/workshop/cognito-overview.png)
+![Image](/images/workshop/cognito-overview.png)
 
 Important details:
 * User pool name: `taskmanager-users-dev`

@@ -20,25 +20,25 @@ Chúc mừng bạn đã hoàn thành workshop TaskManager. Trong workshop này, 
 Nếu bạn không còn cần môi trường TaskManager, hãy dọn dẹp các tài nguyên để tránh phát sinh chi phí thêm.
 
 1. Xóa các đối tượng frontend trong S3 bucket `taskmanager-frontend-dev-*`.
-![Hình](images/workshop/delete-s3-objects.png)
+![Hình](/images/workshop/delete-s3-objects.png)
 
 2. Xóa AppSync API `TaskManagerAPI-dev`.
-![Hình](images/workshop/delete-appsync-api.png)
+![Hình](/images/workshop/delete-appsync-api.png)
 
 3. Xóa các hàm Lambda `userManager-dev`, `boardManager-dev`, `taskProcessor-dev`, và `streamProcessor-dev`.
-![Hình](images/workshop/delete-lambda-functions.png)
+![Hình](/images/workshop/delete-lambda-functions.png)
 
 4. Xóa các bảng DynamoDB `TaskManager-*` nếu dữ liệu không còn cần thiết.
-![Hình](images/workshop/delete-dynamodb-tables.png)
+![Hình](/images/workshop/delete-dynamodb-tables.png)
 
 5. Xóa Cognito User Pool `taskmanager-users-dev`.
-![Hình](images/workshop/delete-cognito-user-pool.png)
+![Hình](/images/workshop/delete-cognito-user-pool.png)
 
 6. Xóa các nhóm log CloudWatch `/aws/lambda/*Manager-dev`, `/aws/lambda/taskProcessor-dev`, và `/aws/lambda/streamProcessor-dev` nếu không còn cần nhật ký kiểm toán.
-![Hình](images/workshop/delete-cloudwatch-log-groups.png)
+![Hình](/images/workshop/delete-cloudwatch-log-groups.png)
 
 7. Xóa các vai trò (roles) hoặc chính sách (policies) IAM được tạo riêng cho dự án này nếu không còn sử dụng.
-![Hình](images/workshop/delete-iam-roles-policies.png)
+![Hình](/images/workshop/delete-iam-roles-policies.png)
 
 {{% notice warning %}}
  Trước khi xóa các bảng DynamoDB hoặc Cognito User Pool, hãy đảm bảo rằng dữ liệu không còn cần thiết. PITR chỉ hỗ trợ trong cửa sổ khôi phục đã cấu hình khi việc khôi phục được xử lý chính xác.

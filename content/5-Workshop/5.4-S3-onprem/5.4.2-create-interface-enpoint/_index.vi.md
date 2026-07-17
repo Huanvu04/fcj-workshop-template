@@ -14,7 +14,7 @@ Xác minh AWS AppSync API đã được tạo để frontend gọi GraphQL query
 2. Chọn **APIs**.
 3. Kiểm tra API `TaskManagerAPI-dev`.
 
-![Hình](images/workshop/appsync.png)
+![Hình](/images/workshop/appsync.png)
 
 Trong ảnh, AppSync có 1 API:
 * **Name:** `TaskManagerAPI-dev`

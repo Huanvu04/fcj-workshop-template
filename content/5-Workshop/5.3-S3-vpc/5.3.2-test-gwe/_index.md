@@ -17,7 +17,7 @@ In the **Files and folders** tab, confirm that the bucket contains:
 * `assets/index-*.js`
 * `assets/index-*.css`
 
-![Image](images//workshop/s3-upload.png)
+![Image](/images/workshop/s3-upload.png)
 
 ### File meaning
 * `index.html`: entry point of the single-page application.

@@ -17,7 +17,7 @@ While exploring AI services on AWS, I regularly read the AWS Machine Learning Bl
 
 I wrote this post to summarize the key ideas from the article and relate them to the AWS infrastructure services I learned during my internship.
 
-![Claude Apps Gateway architecture for AWS](images/blog2/claude-apps-gateway-architecture.png)
+![Claude Apps Gateway architecture for AWS](/images/blog2/claude-apps-gateway-architecture.png)
 
 *Figure 1. Claude Apps Gateway architecture for AWS. (Source: AWS Machine Learning Blog)*
 

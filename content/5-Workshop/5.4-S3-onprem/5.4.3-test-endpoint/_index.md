@@ -14,7 +14,7 @@ Verify that the Lambda functions for TaskManager backend logic have been deploye
 2. Choose **Functions**.
 3. Review the functions that belong to the TaskManager project.
 
-![Image](images/workshop/lambda.png)
+![Image](/images/workshop/lambda.png)
 
 Deployed functions:
 * `userManager-dev`: handles user and profile data.

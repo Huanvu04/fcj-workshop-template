@@ -36,7 +36,7 @@ Hệ thống cải thiện khả năng quan sát tiến độ bằng cách tập
 ### 3. Kiến trúc giải pháp
 Kiến trúc được chia theo các lớp serverless gồm phân phối frontend, xác thực, API, backend, dữ liệu, quan sát vận hành và CI/CD. Website request được phân giải bởi Route 53 và phân phối qua CloudFront từ S3 bucket riêng tư. Login request đi qua Cognito. Các request ứng dụng đã xác thực sử dụng AppSync GraphQL với JWT, sau đó AppSync gọi Lambda để xử lý nghiệp vụ và DynamoDB để lưu dữ liệu task. CloudWatch thu thập logs, metrics và alarms cho toàn bộ ứng dụng.
 
-![Task Management System Architecture](images/proposal/task_management_architecture.png)
+![Task Management System Architecture](/images/proposal/task_management_architecture.png)
 
 #### Dịch vụ AWS sử dụng
 * **Amazon Route 53**: Quản lý DNS record cho domain của ứng dụng.

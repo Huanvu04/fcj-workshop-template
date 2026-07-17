@@ -17,7 +17,7 @@ The workshop uses **Asia Pacific (Singapore) - ap-southeast-1** for the main ser
 2. Search for **IAM**.
 3. Review the IAM dashboard to confirm the account has basic security controls.
 
-![Image](images/workshop/iam.png)
+![Image](/images/workshop/iam.png)
 The dashboard shows that MFA is enabled for the root user and there are no active root access keys. These are important security recommendations for an AWS account.
 
 ### Required permissions

@@ -14,7 +14,7 @@ Xác minh các Lambda functions xử lý backend logic của TaskManager đã đ
 2. Chọn **Functions**.
 3. Kiểm tra các function thuộc project TaskManager.
 
-![Hình](images/workshop/lambda.png)
+![Hình](/images/workshop/lambda.png)
 
 Các function đã triển khai:
 * `userManager-dev`: xử lý thông tin user và profile.

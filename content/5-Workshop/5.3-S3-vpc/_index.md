@@ -11,7 +11,7 @@ The TaskManager frontend is a static web application. After the build step, HTML
 
 In a production architecture, the S3 bucket should stay private and be served through CloudFront. In this workshop, we focus on validating that the frontend artifacts were uploaded successfully to S3.
 
-![Image](images/workshop/s3-upload.png)
+![Image](/images/workshop/s3-upload.png)
 
 ### Content
 * Upload frontend assets to S3

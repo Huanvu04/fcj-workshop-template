@@ -24,7 +24,7 @@ The bucket contains 5 frontend files:
 * `favicon.svg`
 * `icons.svg`
 
-![Image](images/workshop/s3-upload.png)
+![Image](/images/workshop/s3-upload.png)
 
 The screenshot shows **Succeeded: 5 files, 611.4 KB (100%)**, confirming that the frontend artifacts were uploaded to S3 successfully.
 

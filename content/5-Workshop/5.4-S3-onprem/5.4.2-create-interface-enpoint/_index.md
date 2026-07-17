@@ -14,7 +14,7 @@ Verify that the AWS AppSync API is available for frontend GraphQL queries, mutat
 2. Choose **APIs**.
 3. Confirm that `TaskManagerAPI-dev` exists.
 
-![Image](images/workshop/appsync.png)
+![Image](/images/workshop/appsync.png)
 
 The screenshot shows one AppSync API:
 * **Name:** `TaskManagerAPI-dev`

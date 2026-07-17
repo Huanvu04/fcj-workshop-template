@@ -14,7 +14,7 @@ Kiểm tra các log groups trong Amazon CloudWatch để xác nhận backend có
 2. Vào **Logs** > **Log groups**.
 3. Tìm các log group liên quan đến TaskManager.
 
-![Hình](images/workshop/cloudwatch.png)
+![Hình](/images/workshop/cloudwatch.png)
 
 Các log group quan trọng trong ảnh:
 * `/aws/lambda/userManager-dev`

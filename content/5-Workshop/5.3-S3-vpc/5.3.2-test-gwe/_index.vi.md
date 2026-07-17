@@ -17,7 +17,7 @@ Trong tab **Files and folders**, xác nhận bucket có các file sau:
 * `assets/index-*.js`
 * `assets/index-*.css`
 
-![Hình](images//workshop/s3-upload.png)
+![Hình](/images/workshop/s3-upload.png)
 
 ### Ý nghĩa của từng file
 * `index.html`: entry point của single-page application.
