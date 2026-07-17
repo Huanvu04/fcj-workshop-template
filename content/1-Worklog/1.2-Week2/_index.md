@@ -34,5 +34,5 @@ pre: " <b> 1.2. </b> "
 
 ### Images:
 
-![w2.1](images/worklog/w2.1.png)
+![w2.1](/images/worklog/w2.1.png)
 *Figure 1: Learning the theoretical concepts of Module 02*

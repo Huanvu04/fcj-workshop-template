@@ -34,6 +34,6 @@ pre: " <b> 1.5. </b> "
 
 ### Images:
 
-![w5.1](images/worklog/w5.1.png)
-![w5.2](images/worklog/w5.2.png)
+![w5.1](/images/worklog/w5.1.png)
+![w5.2](/images/worklog/w5.2.png)
 *Figure 1: SSH connection and network verification*

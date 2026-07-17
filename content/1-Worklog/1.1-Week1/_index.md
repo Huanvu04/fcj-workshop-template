@@ -18,7 +18,7 @@ pre: " <b> 1.1. </b> "
 | 2 | - Get acquainted with FCJ members. <br> - Read and understand the internship rules and regulations. | 17/04/2026 | 18/04/2026 | |
 | 3 | - Complete five AWS Credits tasks. <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + More AWS learning tasks | 20/04/2026 | 20/04/2026 | <https://cloudjourney.awsstudygroup.com/> |
 | 4 | - Study Module 01. <br> - Learn about AWS Management Console and AWS CLI. <br> - **Hands-on Practice:** <br>&emsp; + Create an AWS account <br>&emsp; + Install and configure AWS CLI <br>&emsp; + Learn basic AWS CLI commands | 21/04/2026 | 22/04/2026 | <https://cloudjourney.awsstudygroup.com/> |
-| 5 | - Complete Labs 01_01 and 01_02. <br>&emsp; + EC2 Instance Types <br>&emsp; + Amazon Machine Images (AMI) <br>&emsp; + Amazon EBS <br>&emsp; + Basic EC2 concepts <br> - Learn different methods to connect to EC2 via SSH. <br> - Explore Elastic IP. | 23/04/2026 | 23/04/2026 | <https://cloudjourney.awsstudygroup.com/> |
+| 5 | - Complete Labs 01_01 and 01_02. <br>&emsp; + EC2 Instance Types <br>&emsp; + Amazon Machine /images (AMI) <br>&emsp; + Amazon EBS <br>&emsp; + Basic EC2 concepts <br> - Learn different methods to connect to EC2 via SSH. <br> - Explore Elastic IP. | 23/04/2026 | 23/04/2026 | <https://cloudjourney.awsstudygroup.com/> |
 | 6 | - Complete Lab 01_03. <br>&emsp; + Launch an EC2 instance <br>&emsp; + Connect via SSH <br>&emsp; + Attach an Amazon EBS volume | 24/04/2026 | 24/04/2026 | <https://cloudjourney.awsstudygroup.com/> |
 | 7 | - Complete Lab 01_04. <br>&emsp; + Launch an EC2 instance <br>&emsp; + Connect via SSH <br>&emsp; + Attach an Amazon EBS volume | 25/04/2026 | 25/04/2026 | <https://cloudjourney.awsstudygroup.com/> |
 
@@ -36,15 +36,15 @@ pre: " <b> 1.1. </b> "
 * Learned how to create IAM groups, users, and roles.
 * Learned how to create Support Cases and interact with AWS Support.
 
-### Images:
+### /images:
 
-![w1.1](images/worklog/W1.1.jpg)
+![w1.1](/images/worklog/W1.1.jpg)
 *Figure 1: Check-in at the kickoff meeting*
-![w1.2](images/worklog/w1.2.png)
+![w1.2](/images/worklog/w1.2.png)
 *Figure 2: Completing the initial 5 AWS tasks*
-![w1.3](images/worklog/w1.3.png)
+![w1.3](/images/worklog/w1.3.png)
 *Figure 3: Completing Labs 01_01 and 01_02*
-![w1.4](images/worklog/w1.4.png)
+![w1.4](/images/worklog/w1.4.png)
 *Figure 4: Completing Lab 01_03*
-![w1.5](images/worklog/w1.5.png)
+![w1.5](/images/worklog/w1.5.png)
 *Figure 5: Completing Lab 01_04*

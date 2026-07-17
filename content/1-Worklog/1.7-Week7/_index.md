@@ -34,5 +34,5 @@ pre: " <b> 1.7. </b> "
 
 ### Images:
 
-![w7.1](images/worklog/w7.1.png)
+![w7.1](/images/worklog/w7.1.png)
 *Figure 1: Completing Lab 24*

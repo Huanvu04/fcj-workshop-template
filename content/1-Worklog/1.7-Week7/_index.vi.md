@@ -34,5 +34,5 @@ pre: " <b> 1.7. </b> "
 
 ### Hình ảnh:
 
-![w7.1](images/worklog/w7.1.png)
+![w7.1](/images/worklog/w7.1.png)
 *Hình 1: Làm bài lab 24*

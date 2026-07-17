@@ -34,6 +34,6 @@ pre: " <b> 1.5. </b> "
 
 ### Hình ảnh:
 
-![w5.1](images/worklog/w5.1.png)
-![w5.2](images/worklog/w5.2.png)
+![w5.1](/images/worklog/w5.1.png)
+![w5.2](/images/worklog/w5.2.png)
 *Hình 1: kết nối SSH và kiểm tra mạng*
