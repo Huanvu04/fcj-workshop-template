@@ -34,12 +34,12 @@ pre: " <b> 1.10. </b> "
 
 ### Images:
 
-![w10.1](/images/worklog/w10.1.png)
+![w10.1](images/worklog/w10.1.png)
 *Figure 1: Create Storage Gateway*
-![w10.2](/images/worklog/w10.2.png)
+![w10.2](images/worklog/w10.2.png)
 *Figure 2: Create File Shares*
-![w10.3](/images/worklog/w10.3.png)
-![w10.4](/images/worklog/w10.4.png)
+![w10.3](images/worklog/w10.3.png)
+![w10.4](images/worklog/w10.4.png)
 *Figure 3: New Z drive created*
-![w10.5](/images/worklog/w10.5.png)
+![w10.5](images/worklog/w10.5.png)
 *Figure 4: Accessing S3 - files have been synchronized*

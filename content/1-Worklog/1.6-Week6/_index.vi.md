@@ -34,5 +34,5 @@ pre: " <b> 1.6. </b> "
 
 ### Hình ảnh:
 
-![w6.1](/images/worklog/w6.1.png)
+![w6.1](images/worklog/w6.1.png)
 *Hình 1: Học lý thuyết module03*

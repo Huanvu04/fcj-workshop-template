@@ -34,13 +34,13 @@ pre: " <b> 1.8. </b> "
 
 ### Hình ảnh:
 
-![w8.1](/images/worklog/w8.1.png)
+![w8.1](images/worklog/w8.1.png)
 *Hình 1: Tải dữ liệu (source code) lên S3 bucket lưu trữ*
-![w8.2](/images/worklog/w8.2.png)
+![w8.2](images/worklog/w8.2.png)
 *Hình 2: Test website*
-![w8.3](/images/worklog/w8.3.png)
+![w8.3](images/worklog/w8.3.png)
 *Hình 3: Block all public access*
-![w8.4](/images/worklog/w8.4.png)
+![w8.4](images/worklog/w8.4.png)
 *Hình 4: Bucket versioning*
-![w8.5](/images/worklog/w8.5.png)
+![w8.5](images/worklog/w8.5.png)
 *Hình 5: Move objects*

@@ -38,13 +38,13 @@ pre: " <b> 1.1. </b> "
 
 ### Images:
 
-![w1.1](/images/worklog/W1.1.jpg)
+![w1.1](images/worklog/W1.1.jpg)
 *Figure 1: Check-in at the kickoff meeting*
-![w1.2](/images/worklog/w1.2.png)
+![w1.2](images/worklog/w1.2.png)
 *Figure 2: Completing the initial 5 AWS tasks*
-![w1.3](/images/worklog/w1.3.png)
+![w1.3](images/worklog/w1.3.png)
 *Figure 3: Completing Labs 01_01 and 01_02*
-![w1.4](/images/worklog/w1.4.png)
+![w1.4](images/worklog/w1.4.png)
 *Figure 4: Completing Lab 01_03*
-![w1.5](/images/worklog/w1.5.png)
+![w1.5](images/worklog/w1.5.png)
 *Figure 5: Completing Lab 01_04*

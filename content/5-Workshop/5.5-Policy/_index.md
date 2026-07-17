@@ -14,7 +14,7 @@ This section validates TaskManager DynamoDB tables, query indexes, and Point-in-
 2. Choose **Tables**.
 3. Review the tables with the `TaskManager` prefix.
 
-![Image](/images/workshop/dynamodb.png)
+![Image](images/workshop/dynamodb.png)
 
 Main tables:
 * `TaskManager-ActivityLogs-dev`
@@ -31,7 +31,7 @@ The tables are **Active** and use **On-demand** capacity mode, which is suitable
 ### Check Global Secondary Index
 Open the `TaskManager-Users-dev` table and choose the **Indexes** tab.
 
-![Image](/images/workshop/indextables.png)
+![Image](images/workshop/indextables.png)
 
 The `TaskManager-Users-dev` table has this GSI:
 * **Index name:** `EmailIndex`
@@ -44,12 +44,12 @@ This index allows the system to find users by email efficiently without scanning
 ### Check PITR on important tables
 Point-in-Time Recovery allows DynamoDB to keep continuous backups for up to 35 days. This is useful when data is accidentally updated or deleted.
 
-![Image](/images/workshop/pitr-edit.png)
+![Image](images/workshop/pitr-edit.png)
 
 In the **Edit point-in-time recovery settings** screen, PITR is enabled with a 35-day backup recovery period.
 
 ##### Board table
-![Image](/images/workshop/pitr-board.png)
+![Image](images/workshop/pitr-board.png)
 
 * **Table `TaskManager-Boards-dev`:**
     * Partition key: `boardId`
@@ -57,7 +57,7 @@ In the **Edit point-in-time recovery settings** screen, PITR is enabled with a 3
     * Table status: Active
     * PITR: On
 ##### Task table
-![Image](/images/workshop/pitr-tasks.png)
+![Image](images/workshop/pitr-tasks.png)
 
 * **Table `TaskManager-Tasks-dev`:**
     * Partition key: `boardId`
@@ -66,7 +66,7 @@ In the **Edit point-in-time recovery settings** screen, PITR is enabled with a 3
     * Table status: Active
     * PITR: On
 ##### User table    
-![Image](/images/workshop/pitr-users.png)
+![Image](images/workshop/pitr-users.png)
 
 * **Table `TaskManager-Users-dev`:**
     * Partition key: `userId`

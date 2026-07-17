@@ -34,13 +34,13 @@ pre: " <b> 1.8. </b> "
 
 ### Images:
 
-![w8.1](/images/worklog/w8.1.png)
+![w8.1](images/worklog/w8.1.png)
 *Figure 1: Upload source code to S3 bucket storage*
-![w8.2](/images/worklog/w8.2.png)
+![w8.2](images/worklog/w8.2.png)
 *Figure 2: Test website*
-![w8.3](/images/worklog/w8.3.png)
+![w8.3](images/worklog/w8.3.png)
 *Figure 3: Block all public access*
-![w8.4](/images/worklog/w8.4.png)
+![w8.4](images/worklog/w8.4.png)
 *Figure 4: Bucket versioning*
-![w8.5](/images/worklog/w8.5.png)
+![w8.5](images/worklog/w8.5.png)
 *Figure 5: Move objects*

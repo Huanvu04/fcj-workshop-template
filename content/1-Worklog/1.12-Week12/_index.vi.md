@@ -37,5 +37,5 @@ pre: " <b> 1.12 </b> "
 
 ### Hình ảnh:
 
-![w12.1](/images/worklog/w12.1.png)
+![w12.1](images/worklog/w12.1.png)
 *Hình 1: Học lý thuyết module05*

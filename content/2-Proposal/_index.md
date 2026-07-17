@@ -32,7 +32,7 @@ The system improves progress visibility by centralizing work data, statuses, own
 ### 3. Solution Architecture
 The architecture is divided into serverless layers including frontend distribution, authentication, API, backend, data, operational monitoring, and CI/CD. Website requests are resolved by Route 53 and distributed via CloudFront from a private S3 bucket. Login requests go through Cognito. Authenticated application requests use AppSync GraphQL with JWT, after which AppSync invokes Lambda for business logic and DynamoDB for task data persistence. CloudWatch collects logs, metrics, and alarms for the entire application.
 
-![Task Management System Architecture](/images/)
+![Task Management System Architecture](images/proposal/task_management_architecture.png)
 
 #### AWS Services Used
 * **Amazon Route 53**: Manages DNS records for the application domain.

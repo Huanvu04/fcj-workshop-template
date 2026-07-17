@@ -35,5 +35,5 @@ pre: " <b> 1.12. </b> "
 * Learned about AWS IAM Identity Center (SSO) for centralized identity and Single Sign-On management.
 * Understood the purpose of AWS Key Management Service (KMS) for creating and managing encryption keys to protect data on AWS.
 
-![w12.1](/images/worklog/w12.1.png)
+![w12.1](images/worklog/w12.1.png)
 *Figure 1. Learning the theoretical concepts of Module 05.*

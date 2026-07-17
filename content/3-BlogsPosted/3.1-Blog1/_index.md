@@ -19,7 +19,7 @@ I found an interesting AWS Architecture Blog describing how S&P Global Market In
 
 Before reading this article, I mainly thought Disaster Recovery meant creating backups and restoring data when failures occurred. After reading it, I realized that a complete DR strategy involves architecture design, replication, failover planning, and minimizing downtime.
 
-![S&P Global Disaster Recovery Architecture](/images/blog1/sp-global-dr-architecture.png)
+![S&P Global Disaster Recovery Architecture](images/blog1/sp-global-dr-architecture.png)
 
 *Figure 1. Disaster Recovery architecture of S&P Global using Amazon FSx for NetApp ONTAP (Source: AWS Architecture Blog).*
 

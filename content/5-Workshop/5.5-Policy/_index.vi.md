@@ -14,7 +14,7 @@ Phần này kiểm tra các bảng DynamoDB của TaskManager, index phục vụ
 2. Chọn **Tables**.
 3. Kiểm tra các bảng có prefix `TaskManager`.
 
-![Hình](/images/workshop/dynamodb.png)
+![Hình](images/workshop/dynamodb.png)
 
 Các bảng chính bao gồm:
 * `TaskManager-ActivityLogs-dev`
@@ -28,7 +28,7 @@ Các bảng đều ở trạng thái **Active** và sử dụng capacity mode **
 ### Kiểm tra Global Secondary Index
 Mở bảng `TaskManager-Users-dev`, chọn tab **Indexes**.
 
-![Hình](/images/workshop/indextables.png)
+![Hình](images/workshop/indextables.png)
 
 Trong ảnh, bảng `TaskManager-Users-dev` có GSI:
 * **Index name:** `EmailIndex`
@@ -41,11 +41,11 @@ Index này giúp hệ thống tìm user theo email nhanh hơn mà không phải 
 ### Kiểm tra PITR trên từng bảng
 Point-in-Time Recovery giúp DynamoDB giữ continuous backup tối đa 35 ngày. Tính năng này hữu ích khi dữ liệu bị ghi sai hoặc xóa nhầm.
 
-![Hình](/images/workshop/pitr-edit.png)
+![Hình](images/workshop/pitr-edit.png)
 
 Trong màn hình **Edit point-in-time recovery settings**, PITR được bật với backup recovery period là 35 ngày.
 ##### Board table
-![Hình](/images/workshop/pitr-board.png)
+![Hình](images/workshop/pitr-board.png)
 
 * **Bảng `TaskManager-Boards-dev`:**
     * Partition key: `boardId`
@@ -54,7 +54,7 @@ Trong màn hình **Edit point-in-time recovery settings**, PITR được bật v
     * PITR: On
 
 ##### Task table
-![Hình](/images/workshop/pitr-tasks.png)
+![Hình](images/workshop/pitr-tasks.png)
 
 * **Bảng `TaskManager-Tasks-dev`:**
     * Partition key: `boardId`
@@ -64,7 +64,7 @@ Trong màn hình **Edit point-in-time recovery settings**, PITR được bật v
     * PITR: On    
 
 ##### User table
-![Hình](/images/workshop/pitr-users.png)
+![Hình](images/workshop/pitr-users.png)
 
 * **Bảng `TaskManager-Users-dev`:**
     * Partition key: `userId`

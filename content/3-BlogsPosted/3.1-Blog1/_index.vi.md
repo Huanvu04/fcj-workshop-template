@@ -19,7 +19,7 @@ Khi đọc AWS Architecture Blog, em thấy bài viết chia sẻ cách **S&P Gl
 
 Trước khi đọc bài viết, em nghĩ Disaster Recovery đơn giản chỉ là sao lưu dữ liệu và khôi phục khi gặp lỗi. Sau khi tìm hiểu, em nhận ra rằng một chiến lược DR hoàn chỉnh còn bao gồm thiết kế kiến trúc, cơ chế sao chép dữ liệu, quy trình chuyển đổi hệ thống và tối ưu thời gian phục hồi.
 
-![Kiến trúc Disaster Recovery của S&P Global](/images/blog1/sp-global-dr-architecture.png)
+![Kiến trúc Disaster Recovery của S&P Global](images/blog1/sp-global-dr-architecture.png)
 
 *Hình 1. Kiến trúc Disaster Recovery của S&P Global sử dụng Amazon FSx for NetApp ONTAP (Nguồn: AWS Architecture Blog).*
 

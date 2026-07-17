@@ -24,7 +24,7 @@ Bucket đã nhận đủ 5 file frontend:
 * `favicon.svg`
 * `icons.svg`
 
-![Hình](/images/workshop/s3-upload.png)
+![Hình](images/workshop/s3-upload.png)
 
 Trong ảnh, quá trình upload hiển thị **Succeeded: 5 files, 611.4 KB (100%)**, nghĩa là frontend artifacts đã được đưa lên S3 thành công.
 

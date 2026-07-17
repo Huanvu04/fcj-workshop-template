@@ -17,7 +17,7 @@ Workshop sử dụng Region **Asia Pacific (Singapore) - ap-southeast-1** cho c�
 2. Tìm dịch vụ **IAM**.
 3. Kiểm tra dashboard IAM để xác nhận tài khoản đã có cấu hình bảo mật cơ bản.
 
-![Hình](/images/workshop/iam.png)
+![Hình](images/workshop/iam.png)
 
 Trong ảnh trên, tài khoản đã có MFA cho root user và không có active access key cho root user. Đây là hai khuyến nghị bảo mật quan trọng khi làm việc với AWS account.
 

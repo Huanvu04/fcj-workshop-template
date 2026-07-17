@@ -14,14 +14,14 @@ Xác minh Amazon Cognito User Pool đang được dùng làm lớp xác thực c
 2. Chọn **User pools**.
 3. Kiểm tra user pool `taskmanager-users-dev`.
 
-![Hình](/images/workshop/cognito.png)
+![Hình](images/workshop/cognito.png)
 
 Trong ảnh, tài khoản có 1 user pool tên `taskmanager-users-dev` ở Region `ap-southeast-1`.
 
 ### Kiểm tra thông tin User Pool
 Mở user pool `taskmanager-users-dev` và xem tab **Overview**.
 
-![Hình](/images/workshop/cognito-overview.png)
+![Hình](images/workshop/cognito-overview.png)
 
 Các thông tin quan trọng:
 * User pool name: `taskmanager-users-dev`

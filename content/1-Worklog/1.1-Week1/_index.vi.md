@@ -38,13 +38,13 @@ pre: " <b> 1.1. </b> "
 
 ### Hình ảnh:
 
-![w1.1](/images/worklog/w1.1.jpg)
+![w1.1](images/worklog/w1.1.jpg)
 *Hình 1: Check-in tại buổi kickoff*
-![w1.2](/images/worklog/w1.2.png)
+![w1.2](images/worklog/w1.2.png)
 *Hình 1: Làm 5 tasks khởi đầu*
-![w1.3](/images/worklog/w1.3.png)
+![w1.3](images/worklog/w1.3.png)
 *Hình 1: Làm bài lab01_01, 01_02*
-![w1.4](/images/worklog/w1.4.png)
+![w1.4](images/worklog/w1.4.png)
 *Hình 1: Làm bài lab01_03*
-![w1.5](/images/worklog/w1.5.png)
+![w1.5](images/worklog/w1.5.png)
 *Hình 1: Làm bài lab01_04*
