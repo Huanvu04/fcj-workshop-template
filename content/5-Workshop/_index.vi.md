@@ -22,3 +22,7 @@ Kiến trúc sử dụng Amazon S3 để lưu static frontend, Amazon Cognito đ
 4. [Cấu hình authentication, API và backend](5.4-Backend-config/)
 5. [Kiểm tra DynamoDB, indexes và PITR](5.5-DynamoDB-check/)
 6. [Dọn dẹp tài nguyên](5.6-Cleanup/)
+
+### Demo
+
+**Link drive demo:** [Video demo](https://drive.google.com/file/d/1S_q5DnR-Ok109MIkXk24VhSIr76fbei3/view?usp=sharing)

@@ -22,3 +22,7 @@ The architecture utilizes Amazon S3 for storing static frontend, Amazon Cognito 
 4. [Configuring authentication, API, and backend](5.4-Backend-config/)
 5. [Checking DynamoDB, indexes, and PITR](5.5-DynamoDB-check/)
 6. [Cleaning up resources](5.6-Cleanup/)
+
+### Demo
+
+**Link drive demo:** [Video demo](https://drive.google.com/file/d/1S_q5DnR-Ok109MIkXk24VhSIr76fbei3/view?usp=sharing)
