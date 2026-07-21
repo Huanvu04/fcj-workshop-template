@@ -51,4 +51,4 @@ Mình mong chương trình sẽ có thêm nhiều buổi workshop chuyên sâu, 
 Có. Nếu có cơ hội, mình mong muốn tiếp tục đồng hành cùng First Cloud Journey để tìm hiểu sâu hơn về kiến trúc Cloud, các giải pháp Serverless và DevOps trên nền tảng AWS, đồng thời tham gia nhiều dự án thực tế hơn.
 
 **• Góp ý khác (tự do chia sẻ):**  
-Mình xin gửi lời cảm ơn đến đội ngũ First Cloud Journey, các mentor và team Admin đã luôn hỗ trợ trong suốt quá trình thực tập. Đây là một trải nghiệm rất ý nghĩa, giúp mình không chỉ nâng cao kiến thức chuyên môn mà còn phát triển các kỹ năng làm việc và định hướng nghề nghiệp trong tương lai.
+Mình xin gửi lời cảm ơn đến đội ngũ First Cloud Journey, anh mentor và team Admin đã luôn hỗ trợ trong suốt quá trình thực tập. Đây là một trải nghiệm rất ý nghĩa, giúp mình không chỉ nâng cao kiến thức chuyên môn mà còn phát triển các kỹ năng làm việc và định hướng nghề nghiệp trong tương lai.

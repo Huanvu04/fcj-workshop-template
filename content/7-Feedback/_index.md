@@ -52,4 +52,4 @@ I hope the program can organize more advanced workshops, technical sharing sessi
 Yes. If given the opportunity, I would be delighted to continue participating in First Cloud Journey, deepen my knowledge of AWS cloud architecture, Serverless technologies, and DevOps practices, and contribute to more real-world projects.
 
 **• Additional Comments:**  
-I would like to express my sincere gratitude to the mentors, Admin team, and everyone at First Cloud Journey for their guidance and support throughout the internship. This experience has significantly strengthened both my technical expertise and my professional skills, and it has provided a solid foundation for my future career in cloud computing.
+I would like to express my sincere gratitude to the mentor, Admin team, and everyone at First Cloud Journey for their guidance and support throughout the internship. This experience has significantly strengthened both my technical expertise and my professional skills, and it has provided a solid foundation for my future career in cloud computing.
