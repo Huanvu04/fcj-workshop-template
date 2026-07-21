@@ -111,8 +111,4 @@ Attending this meetup was an inspiring experience that provided valuable insight
 - Continuous learning and active participation in technical communities create more career opportunities.
 - Technical expertise should always be combined with communication, collaboration, and problem-solving skills.
 
-#### Event Photos
-
-* Add your event photos here.
-
 > Overall, this meetup provided not only valuable technical knowledge about AWS, System Design, DevOps, and Data Analytics, but also inspired me to build a clearer career path in Cloud Computing. The experiences shared by the speakers motivated me to continue learning, improving my technical skills, and actively participating in the AWS community.

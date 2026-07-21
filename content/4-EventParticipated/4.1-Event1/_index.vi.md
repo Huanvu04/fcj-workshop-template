@@ -111,8 +111,4 @@ Tham gia buổi Meetup là một trải nghiệm rất bổ ích, giúp tôi có
 - Học tập liên tục và chủ động tham gia cộng đồng sẽ tạo nhiều cơ hội phát triển nghề nghiệp.
 - Tư duy giải quyết vấn đề và khả năng làm việc nhóm quan trọng không kém kiến thức chuyên môn.
 
-#### Một số hình ảnh khi tham gia sự kiện
-
-* Thêm các hình ảnh của các bạn tại đây.
-
 > Tổng thể, buổi Meetup không chỉ mang lại nhiều kiến thức chuyên môn về AWS, System Design và DevOps mà còn giúp tôi định hướng rõ ràng hơn về con đường phát triển nghề nghiệp trong lĩnh vực Cloud Computing. Những chia sẻ từ các diễn giả là nguồn động lực để tôi tiếp tục học hỏi, rèn luyện kỹ năng và tham gia nhiều hơn vào các hoạt động của cộng đồng AWS.
