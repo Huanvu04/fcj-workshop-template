@@ -36,7 +36,7 @@ pre: " <b> 1.1. </b> "
 * Learned how to create IAM groups, users, and roles.
 * Learned how to create Support Cases and interact with AWS Support.
 
-### /images:
+### images:
 
 ![w1.1](/images/worklog/W1.1.jpg)
 *Figure 1: Check-in at the kickoff meeting*
